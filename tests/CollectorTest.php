@@ -247,11 +247,11 @@ final class CollectorTest extends TestCase
             'keirin.jp', 'nikkansports', 'netkeirin', 'keirinsponichi', 'keirin-web', 'keirin-marche', 'girls-keirin', 'morecadence', 'keirin-fc', 'jik', 'ctc',
             'hakodate', 'hakodate', 'hakodate', 'aomori', 'aomori', 'iwakidaira', 'yahiko', 'maebashi', 'maebashi', 'utsunomiya', 'omiya', 'seibuen',
             'tachikawa', 'tachikawa', 'matsudo', 'chiba', 'kawasaki', 'hiratsuka', 'hiratsuka', 'hiratsuka', 'ito',
-            'shizuoka', 'shizuoka', 'shizuoka', 'shizuoka', 'nagoya', 'matsusaka', 'yokkaichi', 'mukomachi',
+            'shizuoka', 'shizuoka', 'nagoya', 'matsusaka', 'yokkaichi', 'mukomachi',
             'wakayama', 'wakayama', 'wakayama', 'kishiwada', 'tamano', 'tamano', 'tamano', 'tamano', 'hiroshima', 'hofu',
             'takamatsu', 'komatsushima', 'komatsushima', 'kochi', 'takeo', 'sasebo', 'beppu', 'kumamoto',
         ], $keys);
-        self::assertCount(58, $sources);
+        self::assertCount(56, $sources);
         self::assertCount(42, array_unique($keys));
         self::assertInstanceOf(KeirinJpSource::class, $sources[0]);
         self::assertInstanceOf(NikkanSportsSource::class, $sources[1]);

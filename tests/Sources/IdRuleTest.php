@@ -31,6 +31,24 @@ final class IdRuleTest extends TestCase
     }
 
     /**
+     * 静岡は投稿タイプによって、guid が ?p=ID のもの（racedigest、interview）と記事 URL のもの（information、eventinfo）がある。
+     * guid に p= が無ければリンク末尾の数字を投稿 ID にする。
+     *
+     * @return void
+     */
+    #[Test]
+    public function fallsBackToTheTrailingNumberOfTheLink(): void
+    {
+        $at = new DateTimeImmutable('2026-10-11T07:00:57Z');
+        $rule = IdRule::wordPressGuid();
+
+        self::assertSame('4607-20261011', $rule->apply('https://www.shizuoka38.jp/information/4607', 'https://www.shizuoka38.jp/information/4607', $at));
+        self::assertSame('11844-20261011', $rule->apply(null, 'https://www.shizuoka38.jp/eventinfo/11844/', $at));
+        self::assertSame('11866-20261011', $rule->apply('https://www.shizuoka38.jp/?post_type=racedigest&p=11866', 'https://www.shizuoka38.jp/racedigest/%e3%83%ac-2-3/', $at));
+        self::assertNull($rule->apply('https://www.shizuoka38.jp/racedigest/slug/', 'https://www.shizuoka38.jp/racedigest/slug-2/', $at));
+    }
+
+    /**
      * 公開日は日本時間で決める（2026-10-11T16:00Z は JST の 10/12 01:00）。
      *
      * @return void

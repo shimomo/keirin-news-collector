@@ -38,7 +38,7 @@ final class Collector
     }
 
     /**
-     * 既定の 58 ソース（キーは 42 種）。並びは全国媒体、競輪場（北から）の順。
+     * 既定の 56 ソース（キーは 42 種）。並びは全国媒体、競輪場（北から）の順。
      * 同じ HttpFetcher を全ソースで共有するので、待機間隔もソースをまたいで効く。
      *
      * @param ?\Shimomo\KeirinNewsCollector\Http\HttpFetcher $fetcher
@@ -88,8 +88,6 @@ final class Collector
             $newsXml(NewsXmlSite::ito()),
             $feed(FeedSite::shizuokaInformation()),
             $feed(FeedSite::shizuokaEventinfo()),
-            $feed(FeedSite::shizuokaRacedigest()),
-            $feed(FeedSite::shizuokaInterview()),
             $wordpress(WordPressSite::nagoya()),
             $wordpress(WordPressSite::matsusaka()),
             $wordpress(WordPressSite::yokkaichi()),

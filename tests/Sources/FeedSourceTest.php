@@ -281,6 +281,31 @@ final class FeedSourceTest extends TestCase
     }
 
     /**
+     * 静岡は投稿によってリンクが長いスラッグで、投稿 ID が guid の p= にしか無いことがある。
+     *
+     * @return void
+     */
+    #[Test]
+    public function readsTheShizuokaPostIdFromTheGuidWhenTheLinkIsASlug(): void
+    {
+        $link = 'https://www.shizuoka38.jp/information/%e3%83%ac%e3%83%bc%e3%82%b9-01-2-2-3-2/';
+        $feed = '<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><item><title>レースダイジェスト</title>'
+            . '<link>' . $link . '</link><guid isPermaLink="false">https://www.shizuoka38.jp/?post_type=information&#038;p=11866</guid>'
+            . '<pubDate>Sun, 11 Oct 2026 07:00:57 +0000</pubDate><description></description></item></channel></rss>';
+        $client = new MockHttpClient(static fn(string $method, string $url): MockResponse => $url === $link
+            ? new MockResponse('<html><body><div class="content__info"><p>ダイジェスト</p></div></body></html>')
+            : new MockResponse($feed));
+
+        $result = $this->source(FeedSite::shizuokaInformation(), $client)->fetch(null);
+
+        self::assertSame([], $result->failures);
+        self::assertCount(1, $result->articles);
+        self::assertSame('11866-20261011', $result->articles[0]->id);
+        self::assertSame(['お知らせ'], $result->articles[0]->categories);
+        self::assertSame('ダイジェスト', $result->articles[0]->bodyText);
+    }
+
+    /**
      * 和歌山の新着情報は日付だけ（00:00）。since が当日の昼でも当日の項目を返す。
      * タイトルは記事ページから取り直し、記事ページが取れなければフィードの切れたタイトルのまま返す。
      *

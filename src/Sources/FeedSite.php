@@ -166,22 +166,6 @@ final readonly class FeedSite
     }
 
     /**
-     * @return self
-     */
-    public static function shizuokaRacedigest(): self
-    {
-        return self::shizuoka('racedigest', 'レースダイジェスト');
-    }
-
-    /**
-     * @return self
-     */
-    public static function shizuokaInterview(): self
-    {
-        return self::shizuoka('interview', 'インタビュー');
-    }
-
-    /**
      * FC2 ブログの RSS 1.0。本文は content:encoded、分類は dc:subject。
      *
      * @return self
@@ -299,8 +283,9 @@ final readonly class FeedSite
     }
 
     /**
+     * レースダイジェストとインタビューの投稿タイプは個別ページがトップページを返す（中身は一覧ページにしか無い）ので扱わない。
      * 投稿タイプ別のフィードは既定の並びが手動なので、日付順を指定しないと最新記事が10件に入らない。
-     * guid は URL（?p= ではない）なので、リンク末尾の投稿 ID に公開日を足す。フィードの本文は空。
+     * guid は投稿タイプによって ?p=ID だったり記事 URL だったりする（wordPressGuid が両方を扱う）。フィードの本文は空。
      *
      * @param string $type
      * @param string $label
@@ -312,7 +297,7 @@ final readonly class FeedSite
             'shizuoka',
             '静岡競輪',
             'https://www.shizuoka38.jp/' . $type . '/feed/?orderby=date&order=DESC',
-            IdRule::linkPattern('~/(\d+)/?$~', true),
+            IdRule::wordPressGuid(),
             BodyMode::Page,
             self::SHIZUOKA_BODY,
             fixedCategories: [$label],

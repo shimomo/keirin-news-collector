@@ -57,8 +57,6 @@ final class FeedSiteTest extends TestCase
         yield 'seibuen' => [FeedSite::seibuen(), 'seibuen', '西武園競輪', 'https://www.keirin-saitama.jp/seibuen/topics/feed/', BodyMode::Feed, null, []];
         yield 'shizuokaInformation' => [FeedSite::shizuokaInformation(), 'shizuoka', '静岡競輪', 'https://www.shizuoka38.jp/information/feed/?orderby=date&order=DESC', BodyMode::Page, '//div[contains(concat(" ", normalize-space(@class), " "), " content__info ")]', ['お知らせ']];
         yield 'shizuokaEventinfo' => [FeedSite::shizuokaEventinfo(), 'shizuoka', '静岡競輪', 'https://www.shizuoka38.jp/eventinfo/feed/?orderby=date&order=DESC', BodyMode::Page, '//div[contains(concat(" ", normalize-space(@class), " "), " content__info ")]', ['イベント']];
-        yield 'shizuokaRacedigest' => [FeedSite::shizuokaRacedigest(), 'shizuoka', '静岡競輪', 'https://www.shizuoka38.jp/racedigest/feed/?orderby=date&order=DESC', BodyMode::Page, '//div[contains(concat(" ", normalize-space(@class), " "), " content__info ")]', ['レースダイジェスト']];
-        yield 'shizuokaInterview' => [FeedSite::shizuokaInterview(), 'shizuoka', '静岡競輪', 'https://www.shizuoka38.jp/interview/feed/?orderby=date&order=DESC', BodyMode::Page, '//div[contains(concat(" ", normalize-space(@class), " "), " content__info ")]', ['インタビュー']];
         yield 'takamatsu' => [FeedSite::takamatsu(), 'takamatsu', '高松競輪', 'https://tkmtkeirin.blog.fc2.com/?xml', BodyMode::Feed, null, []];
         yield 'takeo' => [FeedSite::takeo(), 'takeo', '武雄競輪', 'https://www.keirin.city.takeo.lg.jp/news/index.rss', BodyMode::Feed, null, []];
         yield 'wakayamaNews' => [FeedSite::wakayamaNews(), 'wakayama', '和歌山競輪', 'https://www.keirinwa.com/rss.xml', BodyMode::Page, '//div[@id="mainArea"]', []];
@@ -71,18 +69,22 @@ final class FeedSiteTest extends TestCase
     }
 
     /**
-     * WordPress のフィードは guid の p=ID ＋ 公開日、静岡は guid が URL なのでリンクの末尾の数字 ＋ 公開日。
+     * WordPress のフィード（静岡を含む）は guid の p=ID、無ければリンク末尾の数字 ＋ 公開日。
      *
      * @return void
      */
     #[Test]
     public function presetsUseTheSpecifiedIdRules(): void
     {
-        foreach ([FeedSite::omiya(), FeedSite::seibuen(), FeedSite::keirinMarche(), FeedSite::girlsKeirin(), FeedSite::jik()] as $site) {
+        $wordPress = [
+            FeedSite::omiya(), FeedSite::seibuen(), FeedSite::keirinMarche(), FeedSite::girlsKeirin(), FeedSite::jik(),
+            FeedSite::shizuokaInformation(), FeedSite::shizuokaEventinfo(),
+        ];
+
+        foreach ($wordPress as $site) {
             self::assertEquals(IdRule::wordPressGuid(), $site->idRule, $site->key);
         }
 
-        self::assertEquals(IdRule::linkPattern('~/(\d+)/?$~', true), FeedSite::shizuokaInformation()->idRule);
         self::assertEquals(IdRule::linkPattern('~blog-entry-(\d+)~'), FeedSite::takamatsu()->idRule);
         self::assertEquals(IdRule::linkPattern('~/archives/(\d+)~'), FeedSite::takeo()->idRule);
         self::assertEquals(IdRule::linkPattern('~[?&]id=(\d+)~'), FeedSite::netkeirin()->idRule);
@@ -128,8 +130,8 @@ final class FeedSiteTest extends TestCase
             $urls[] = $site->feedUrl;
         }
 
-        self::assertCount(22, $urls);
-        self::assertCount(22, array_unique($urls));
+        self::assertCount(20, $urls);
+        self::assertCount(20, array_unique($urls));
     }
 
     /**
