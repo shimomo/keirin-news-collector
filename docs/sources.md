@@ -69,7 +69,7 @@ Google ニュース RSS を 11 クエリ（競輪 / ケイリン / KEIRIN / ガ�
 | 川崎 | 独自 XML `https://www.kawasakikeirin.com/news.xml` | なし | 週1〜2 | 日付・タイトル・リンクのみ。本文は `main#mainArea .contents`。日付に時刻なし |
 | 平塚 | WP REST `https://www.shonanbank.com/wp-json/wp/v2/{news,blog,event}` | あり | ほぼ毎日 | `blog`（バンクレポート）は 2,000〜3,400 字で最も記事らしい。news は ID を使い回す。link が http |
 | 伊東 | 独自 XML `https://www.itokeirin.com/news.xml` | なし | 週1〜3 | 川崎と同じ形式。2028-10 まで本場開催休止 |
-| 静岡 | WP RSS `https://www.shizuoka38.jp/{information,eventinfo,racedigest,...}/feed/?orderby=date&order=DESC` | なし | 週数本 | 投稿タイプが REST に出ていない。既定の並びが手動なので並び順の指定が必須。本文は `div.content__info` |
+| 静岡 | WP RSS `https://www.shizuoka38.jp/{information,eventinfo}/feed/?orderby=date&order=DESC` | なし | 週数本 | 投稿タイプが REST に出ていない。既定の並びが手動なので並び順の指定が必須。本文は `div.content__info`。racedigest・interview は個別ページがトップページを返す（中身は一覧ページにしか無い）ので対象外 |
 | 名古屋 | WP REST `https://nagoyakeirin.com/wp-json/wp/v2/posts` | あり・アイキャッチ | 週1〜2 | 向日町と同じ制作元 |
 | 松阪 | WP REST `https://matsusaka-keirin.jp/wp-json/wp/v2/posts` | あり | 週1〜2 | |
 | 四日市 | WP REST `https://yokkaichikeirin.com/wp-json/wp/v2/posts` | ほぼチラシ画像のみ | 月数本 | link が http |

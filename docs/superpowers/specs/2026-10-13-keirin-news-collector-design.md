@@ -16,7 +16,7 @@
 
 ## 2. 対象ソース
 
-ソースキーは 42 個（競輪場 31、それ以外 11）。1 つのキーが複数の `Source` を持つことがある（オート版の川口の news と interview と同じ）。`Source` の総数は 58。
+ソースキーは 42 個（競輪場 31、それ以外 11）。1 つのキーが複数の `Source` を持つことがある（オート版の川口の news と interview と同じ）。`Source` の総数は 56（当初 58。静岡のレースダイジェストとインタビューは、本番サーバでの smoke 実行で個別ページがトップページを返すと分かったため外した）。
 
 ### 2.1 競輪場以外（11 キー）
 
@@ -54,7 +54,7 @@
 | `kawasaki` | 川崎競輪 | `NewsXmlSource` | `https://www.kawasakikeirin.com/news.xml` | 記事ページ |
 | `hiratsuka` | 平塚競輪 | `WordPressSource` | `https://www.shonanbank.com` の `news`（お知らせ）、`blog`（バンクレポート）、`event`（イベント） | REST |
 | `ito` | 伊東温泉競輪 | `NewsXmlSource` | `https://www.itokeirin.com/news.xml` | 記事ページ |
-| `shizuoka` | 静岡競輪 | `FeedSource` | `https://www.shizuoka38.jp/{information,eventinfo,racedigest,interview}/feed/?orderby=date&order=DESC`（4。固定ラベル「お知らせ」「イベント」「レースダイジェスト」「インタビュー」） | 記事ページ |
+| `shizuoka` | 静岡競輪 | `FeedSource` | `https://www.shizuoka38.jp/{information,eventinfo}/feed/?orderby=date&order=DESC`（2。固定ラベル「お知らせ」「イベント」） | 記事ページ |
 | `nagoya` | 名古屋競輪 | `WordPressSource` | `https://nagoyakeirin.com` の `posts` | REST |
 | `matsusaka` | 松阪競輪 | `WordPressSource` | `https://matsusaka-keirin.jp` の `posts` | REST |
 | `yokkaichi` | 四日市競輪 | `WordPressSource` | `https://yokkaichikeirin.com` の `posts` | REST（ほぼ画像） |
@@ -90,7 +90,7 @@ $result->articles;  // list<Article> 全ソース混在、publishedAt の新し�
 $result->failures;  // list<SourceFailure>
 ```
 
-- `Collector::default(?HttpFetcher $fetcher = null, int $maxPages = 3): self` は 2 章の 58 個の `Source` を、1 つの `HttpFetcher` を共有して組み立てる。`maxPages` は `WordPressSource` の `since` 指定時のページ送り上限。
+- `Collector::default(?HttpFetcher $fetcher = null, int $maxPages = 3): self` は 2 章の 56 個の `Source` を、1 つの `HttpFetcher` を共有して組み立てる。`maxPages` は `WordPressSource` の `since` 指定時のページ送り上限。
 - `only(string ...$keys)` / `without(string ...$keys)` はソースキーで絞った新しい `Collector` を返す。同じキーのソースはまとめて残る／落ちる。未知のキーと空の `only()` は `InvalidArgumentException`。
 - `collect(?DateTimeInterface $since = null): CollectResult`。`since` を渡すと `publishedAt >= since` の記事だけ返す（日付だけのソースは 4.2）。省略時は各ソースが 1 回で返せる範囲を返す（記事ページを取るソースは 4.3 の上限あり）。例外は投げない。
 - `Article`、`toArray()`、`CollectResult`、`FetchResult`、`SourceFailure`、`Contracts\Source`、テスト用の `Sources\ArraySource` はオート版と同じ。
@@ -110,7 +110,7 @@ $result->failures;  // list<SourceFailure>
 | 武雄（baserCMS） | `/news/archives/{n}` の `n` | `567` |
 | Lekumo、和歌山、川崎、伊東 | 記事 URL のパス | `/info/2026/10/cs10141016-7a36.html` |
 
-静岡は guid が `?p=` ではなく記事 URL なので、投稿 ID はリンク末尾の数字から取る。
+静岡は投稿タイプによって guid が `?p=ID` だったり記事 URL だったりする。`wordPressGuid()` は guid の `p=` を優先し、無ければリンク末尾の数字を投稿 ID にする。
 
 WordPress 系に公開日を足すのは、弥彦・前橋・平塚・静岡が同じ投稿を日付と中身だけ書き換えて再掲するため。投稿 ID だけだと、呼び出し側の `updateOrCreate(['source', 'source_id'])` が前の版を上書きして消す。WordPress は編集では公開日を変えないので、誤字修正などは同じ `id` のまま更新になる。KEIRIN.JP も古い常設記事を新しい掲載日で再掲するので同じ扱いにする。
 
@@ -183,7 +183,7 @@ RSS 2.0、RSS 1.0（RDF）、Atom を読む汎用ソース。設定は `FeedSite
 | `?string $bodyXPath` | 記事ページの本文要素。`FeedOrPage` / `Page` で必須 |
 | `list<string> $removeXPaths` | 本文要素から取り除く要素 |
 | `?string $titleXPath` | 記事ページからタイトルを取り直すときの要素（和歌山の新着情報） |
-| `IdRule $idRule` | `IdRule::wordPressGuid()`（guid の `p=(\d+)` ＋ 公開日）/ `IdRule::linkPattern(regex, withDate)`（リンクに正規表現を当てて 1 番目のグループ。`withDate` なら公開日を足す）/ `IdRule::linkPath()`（リンクのパス） |
+| `IdRule $idRule` | `IdRule::wordPressGuid()`（guid の `p=(\d+)`、無ければリンク末尾の数字 ＋ 公開日）/ `IdRule::linkPattern(regex, withDate)`（リンクに正規表現を当てて 1 番目のグループ。`withDate` なら公開日を足す）/ `IdRule::linkPath()`（リンクのパス） |
 | `?string $linkFilter` | この正規表現に合うリンクの項目だけ扱う（和歌山の新着情報は `~/news/~`。`/interview/` を指す項目はインタビューの Atom と重なるので捨てる） |
 | `list<string> $fixedCategories` | 分類の先頭に足す固定ラベル |
 | `bool $dateOnly` | 4.2 の扱いにする（和歌山の新着情報） |
@@ -212,7 +212,7 @@ RSS 2.0、RSS 1.0（RDF）、Atom を読む汎用ソース。設定は `FeedSite
 | tachikawa（info / event） | `FeedOrPage` | 同上 | `LinkPath` | |
 | beppu | `Page` | `//section[contains(@class,"section-contents")]/main` / `h2.section-title`、`p.text-update`、`div.entry-footer` | `LinkPath` | Lekumo だがテンプレートが別 |
 | omiya / seibuen | `Feed` | — | `WordPressGuid` | |
-| shizuoka（information / eventinfo / racedigest / interview） | `Page` | `//div[contains(@class,"content__info")]` | `linkPattern('~/(\d+)/?$~', withDate: true)` | フィードの description と content が空。リンクは末尾スラッシュ無しで 301 になる（リダイレクトに従う） |
+| shizuoka（information / eventinfo） | `Page` | `//div[contains(@class,"content__info")]` | `wordPressGuid()` | フィードの description と content が空。リンクは末尾スラッシュ無しで 301 になる（リダイレクトに従う） |
 | takamatsu | `Feed` | — | `LinkPattern('~blog-entry-(\d+)~')` | RSS 1.0、分類は `dc:subject` |
 | takeo | `Feed` | — | `LinkPattern('~/archives/(\d+)~')` | 本文は description |
 | wakayama 新着情報 | `Page` | `//div[@id="mainArea"]` / `div.title01` | `LinkPath` | `titleXPath` = `//div[contains(@class,"title01")]`、`linkFilter` = `~/news/~`、`dateOnly` |
@@ -280,7 +280,7 @@ robots.txt で許可されたパス（`/pc/topicslist`、`/pc/topicsdetail`、`/
 - `HttpFetcher`: UA `keirin-news-collector (+https://github.com/shimomo/keirin-news-collector)`、`Accept-Language: ja`、タイムアウト 15 秒、2 回目以降のリクエスト前に 1 秒待つ（全ソースで共有）、リダイレクトに従う（symfony の既定）、再試行なし。
 - `BodyNormalizer`: `script`、`style`、`noscript`、`iframe`、HTML コメントを除去し、`img@src` と `a@href` を絶対化し、テキスト化する。`removeXPaths` の除去は各ソースで本文要素を切り出すときに行い、`BodyNormalizer` には渡さない。
 
-58 ソースと記事ページの取得で、1 回の実行は 2〜3 分かかる。
+56 ソースと記事ページの取得で、1 回の実行は 2〜3 分かかる（本番サーバで約 130 秒）。
 
 ## 8. エラー処理
 
@@ -312,7 +312,7 @@ robots.txt で許可されたパス（`/pc/topicslist`、`/pc/topicsdetail`、`/
   - `NewsXmlSource`: 日付の読み取り、空の `alink`、相対 URL、4.2 の `since` の切り下げ、20 件の上限
   - `KeirinJpSource`: 埋め込み JSON の抜き出し（代入文の方を取ること）、振り分け 3 種、取る月の範囲、`kakolist` の打ち切り、レポートの重複除去、500 を記事単位の失敗にすること、`resultCd` が負のときの月単位の失敗
   - `XmlDocument`: 重複した XML 宣言、先頭の空白
-  - `Collector`: `default()` が 58 個の `Source` と 42 個のキーを組むこと
+  - `Collector`: `default()` が 56 個の `Source` と 42 個のキーを組むこと
 - 通ることだけでなく、規約を故意に壊して落ちることも確認する。
 - `tools/smoke.php`: `Collector::default()->collect(since: -7 日)` を実行し、ソースキーごとの件数と `failures` を表で出す。テストとは別に、autorace サーバで手動で実行する。`.gitattributes` で export-ignore にする。
 
