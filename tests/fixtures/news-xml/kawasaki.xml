@@ -1,0 +1,5222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+お知らせ情報
+リンク先に「&」を含む場合は「&amp;」に置換する
+改行「<br />」は「\r\n」に置換する
+<news>
+	<kind>種別</kind>
+	<date>日付</date>
+	<contents>文章</contents>
+	<alink>リンク先</alink>
+	<target>ブラウザリンクターゲット</target>
+</news>
+-->
+
+<list_database>
+    <!--仮面デフォルト
+<news>
+	<kind>info</kind>
+	<date>2018/01/02</date>
+	<contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+	<alink>info/info_2018010201.html</alink>
+	<target></target>
+</news>
+仮面デフォルト-->
+    <!--
+<news>
+	<kind>info</kind>
+	<date>2018/8/8</date>
+	<contents>8/9悪天候によるイベントの中止について</contents>
+	<alink>info/info_2018080801.html</alink>
+	<target>_blank</target>
+</news>
+-->
+
+    <!--お知らせ上部固定ここから-->
+
+    <!--お知らせ上部固定ここまで-->
+
+
+    <!--↓ミッドナイト開催中、開催情報固定↓-->
+    <!--↑ミッドナイト開催中、開催情報固定↑-->
+<!---->
+<!---->
+<news>
+	<kind>info</kind>
+	<date>2026/10/13</date>
+	<contents>グランプリシリーズのメインスタンド指定席開閉について</contents>
+	<alink>info/info_2026101301.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2026/10/12</date>
+	<contents>川崎競輪場　歴代優勝者情報を更新しました。</contents>
+	<alink>race/kawasaki_winner.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2026/10/8</date>
+	<contents>10月12日（月祝）第2回ふじみ祭りin川崎競輪場</contents>
+	<alink>event/event_2026100801.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2026/10/6</date>
+	<contents>川崎市営川崎競輪ミッドナイト オッズパーク杯（10月9日～10月11日）開催情報</contents>
+	<alink>info/info_2026100601.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2026/9/29</date>
+	<contents>10月14日（水）第53回 南関東地区プロ自転車競技大会開催についてのお知らせ</contents>
+	<alink>info/info_2026092901.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2026/9/28</date>
+	<contents>川崎競輪 サンケイスポーツ杯争奪戦　ラ・ピスタ新橋カップ（10月1日～3日）開催情報</contents>
+	<alink>info/info_2026092801.html</alink>
+	<target></target>
+</news>
+
+
+<news>
+	<kind>event</kind>
+	<date>2026/9/25</date>
+	<contents>１０月１２日（月祝）イベント・ファンサービス情報</contents>
+	<alink>event/event_2026092501.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2026/9/24</date>
+	<contents>諸橋愛　選手 献花台設置のお知らせ</contents>
+	<alink>info/info_2026092401.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2026/9/21</date>
+	<contents>川崎市営川崎競輪ミッドナイト 前検コメはウィンチケット杯（9月24日～9月26日）開催情報</contents>
+	<alink>info/info_2026092101.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2026/9/18</date>
+	<contents>【10月度追加】CTC投票で当たる!!「肉球キャンペーン」</contents>
+	<alink>info/ctc2026.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2026/9/16</date>
+	<contents>川崎競輪場 ストライダーレース＆体験会を開催します！</contents>
+	<alink>event/event_2026091501.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2026/9/14</date>
+	<contents>川崎市営川崎競輪ミッドナイト 前検コメはウィンチケット杯（9月17日～9月19日）開催情報</contents>
+	<alink>info/info_2026091401.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2026/9/7</date>
+	<contents>川崎競輪　オッズパーク杯（9月10日～12日）開催情報</contents>
+	<alink>info/info_2026090701.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2026/9/4</date>
+	<contents>９月２１日（月祝）イベント・ファンサービス情報</contents>
+	<alink>event/event_2026090401.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2026/8/30</date>
+	<contents>川崎競輪　お得クーポン協力店舗のご紹介</contents>
+	<alink>info/info_2026082801.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2026/8/24</date>
+	<contents>川崎競輪 競輪ワールドシリーズ スピチャン・スカパー杯（8月30日～9月1日）開催情報</contents>
+	<alink>info/info_2026082401.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2026/8/18</date>
+	<contents>８月３０日（日）開催　競輪ワールドシリーズイベント情報</contents>
+	<alink>event/event_2026083001.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2026/8/12</date>
+	<contents>川崎競輪 スピチャン・スカパー杯 ＣＴＣは３分前杯（8月19日～21日）開催情報</contents>
+	<alink>info/info_2026081201.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2026/8/9</date>
+	<contents>川崎FIIミッドナイト（1日目）YouTube配信復旧のお知らせ</contents>
+	<alink>info/info_2026080902.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2026/8/9</date>
+	<contents>8月9日（日） 川崎FIIミッドナイト（1日目）川崎競輪場【公式】YouTube配信について</contents>
+	<alink>info/info_2026080901.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2026/8/6</date>
+	<contents>【指定席券購入者限定】お食事券プレゼントキャンペーンのお知らせ</contents>
+	<alink>info/info_2026080501.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2026/8/4</date>
+	<contents>川崎市営川崎競輪ミッドナイト チャリロト杯（8月9日～8月11日）開催情報</contents>
+	<alink>info/info_2026080401.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2026/8/4</date>
+	<contents>８月１６日（日）イベント・ファンサービス情報</contents>
+	<alink>event/event_2026080401.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2026/8/4</date>
+	<contents>神奈川オールスター出場選手合同合宿 in 川崎競輪場</contents>
+	<alink>info/info_2026080402.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2026/7/31</date>
+	<contents>川崎ベトナム・サマーフェス2026 in 富士見公園</contents>
+	<alink>event/event_2026073101.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2026/7/26</date>
+	<contents>7月11日（土）川崎競輪所属選手の地域活動のお知らせ</contents>
+	<alink>info/info_2026072601.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2026/7/17</date>
+	<contents>７月２０日（月）イベント・ファンサービス情報</contents>
+	<alink>event/event_2026071701.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2026/7/6</date>
+	<contents>7/19(日)「ワグワンカワサキvol.4」イベントについて</contents>
+	<alink>event/event_2026070601.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2026/7/1</date>
+	<contents>7月19日（日）に親子連れやカップルで楽しめる「川崎競輪 夏まつり」を開催します！</contents>
+	<alink>event/event_2026070101.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2026/6/12</date>
+	<contents>6月21日（日）イベント・ファンサービス情報</contents>
+	<alink>event/event_2026061201.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2026/6/11</date>
+	<contents>6月21日（日）川崎競輪所属　129期　新人選手紹介</contents>
+	<alink>event/event_2026061101.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2026/6/2</date>
+	<contents>「バンクチャレンジ走行体験会」を開催します！</contents>
+	<alink>event/event_2026060201.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2026/5/14</date>
+	<contents>バス時刻表 一部改正のお知らせ</contents>
+	<alink>info/info_2026051201.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2026/4/28</date>
+	<contents>佐藤水菜選手　オールガールズクラシック優勝</contents>
+	<alink>info/info_2026042801.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2026/4/23</date>
+	<contents>5月6日（水）野中龍之介選手トークショー</contents>
+	<alink>event/event_2026042301.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2026/4/22</date>
+	<contents>【5月10日（日）】川崎ドリームイベント2026 開催決定！</contents>
+	<alink>event/event_2026042201.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2026/4/21</date>
+	<contents>5月6日（水）イベント・ファンサービス情報</contents>
+	<alink>event/event_2026042101.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2026/4/21</date>
+	<contents>ギャンブル等依存症問題啓発週間における取り組みについて</contents>
+	<alink>info/info_2026042101.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2026/4/15</date>
+	<contents>川崎競輪場　自転車補助輪外し教室開催！</contents>
+	<alink>event/event_2026041501.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2026/4/9</date>
+	<contents>第69回オールスター競輪＆第2回女子オールスター競輪ファン投票のお知らせ</contents>
+	<alink>info/info_2026040901.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2026/3/26</date>
+	<contents>「第４３回読売新聞社杯全日本選抜競輪（GI）」開催決定</contents>
+	<alink>info/info_2026032601.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2026/3/18</date>
+	<contents>2月28日（土）川崎競輪所属選手の地域活動のお知らせ</contents>
+	<alink>info/info_2026031802.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2026/3/18</date>
+	<contents>2月21日（土）川崎競輪所属選手の地域活動のお知らせ</contents>
+	<alink>info/info_2026031801.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2026/3/11</date>
+	<contents>3月12日（木）　小松島競輪Flの開催中止による場外発売変更のお知らせ</contents>
+	<alink>info/info_2026031101.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2026/3/5</date>
+	<contents>４月１日（水）よりのメインスタンド指定席の開閉について</contents>
+	<alink>info/info_2026030502.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2026/2/17</date>
+	<contents>2月14日（土）川崎競輪所属選手の地域活動のお知らせ</contents>
+	<alink>info/info_2026021701.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2026/2/13</date>
+	<contents>川崎競輪 春まつり</contents>
+	<alink>event/event_2026021301.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2026/2/12</date>
+	<contents>郡司浩平選手『KEIRINグランプリ2025優勝祝勝会』一般参加者募集について</contents>
+	<alink>info/info_2026021201.html</alink>
+	<target></target>
+</news>
+
+<!--
+<news>
+	<kind>info</kind>
+	<date>2026/2/10</date>
+	<contents>郡司浩平選手『KEIRINグランプリ2025優勝祝勝会』一般参加者募集について</contents>
+	<alink>info/info_2026021002.html</alink>
+	<target></target>
+</news>
+-->
+<news>
+	<kind>info</kind>
+	<date>2026/2/10</date>
+	<contents>４月１日（水）よりバス時刻表を導入します</contents>
+	<alink>info/info_2026021001.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2026/1/20</date>
+	<contents>對馬太陽選手　引退報告会について</contents>
+	<alink>event/event_2026012001.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2026/1/6</date>
+	<contents>１月１７日（土）イベント・ファンサービス情報</contents>
+	<alink>event/event_2026010601.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2026/1/5</date>
+	<contents>佐藤水菜選手　ガールズグランプリ優勝報告会について</contents>
+	<alink>event/event_2026010502.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2026/1/5</date>
+	<contents>郡司浩平選手　グランプリ優勝報告会について</contents>
+	<alink>event/event_2026010501.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2025/12/19</date>
+	<contents>１２月３０日（火）イベント・ファンサービス情報</contents>
+	<alink>event/event_2025121901.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/12/14</date>
+	<contents>12月13日（土）川崎競輪所属選手の地域活動のお知らせ</contents>
+	<alink>info/info_2026021802.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/12/9</date>
+	<contents>１２月３０日（火）「ＫＥＩＲＩＮグランプリ２０２５」発売等に関するお知らせ</contents>
+	<alink>info/info_2025120901.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/12/1</date>
+	<contents>12月5日（金）大宮競輪FIIモーニングの開催中止による場外発売変更のお知らせ</contents>
+	<alink>info/info_2025120101.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/11/27</date>
+	<contents>「２０２６年版神奈川支部カレンダー」配布について</contents>
+	<alink>info/info_2025112701.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/11/26</date>
+	<contents>チャリロトプラザ川崎_西スタンド店　閉店のお知らせ</contents>
+	<alink>info/info_2025112601.html</alink>
+	<target></target>
+</news>
+<!--
+<news>
+	<kind>info</kind>
+	<date>2025/11/17</date>
+	<contents>応援キーホルダー不具合品交換のお知らせ</contents>
+	<alink>info/info_2025111701.html</alink>
+	<target></target>
+</news>
+-->
+<news>
+	<kind>event</kind>
+	<date>2025/11/14</date>
+	<contents>１１月２４日（月休）イベント・ファンサービス情報</contents>
+	<alink>event/event_2025111401.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/11/07</date>
+	<contents>KKPスクール予約について</contents>
+	<alink>info/info_2025110701.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/11/04</date>
+	<contents>「２０２６年版競輪カレンダー」配布について</contents>
+	<alink>info/info_2025110401.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/10/27</date>
+	<contents>川崎競輪場　歴代優勝者情報を更新しました。</contents>
+	<alink>race/kawasaki_winner.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2025/10/25</date>
+	<contents>２０２５ラスト開催！川崎競輪　秋祭り！の一部イベント中止について</contents>
+	<alink>event/event_2025102501.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/10/24</date>
+	<contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+	<alink>info/info_2025102401.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/10/21</date>
+	<contents>川崎競輪　ＴＩＰＳＴＡＲ杯（10月25日～10月27日）開催情報</contents>
+	<alink>info/info_2025102101.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/10/18</date>
+	<contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+	<alink>info/info_2025101801.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/10/15</date>
+	<contents>佐藤水菜選手 史上初のグランプリスラム達成！本人コメント公開！</contents>
+	<alink>info/info_2025101501.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/10/14</date>
+	<contents>川崎市営川崎競輪ミッドナイト ウィンチケミッドナイト競輪（10月18日～10月20日）開催情報</contents>
+	<alink>info/info_2025101401.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2025/10/10</date>
+	<contents>２０２５ラスト開催！川崎競輪　秋祭り！イベント（TIPSTAR杯）</contents>
+	<alink>event/event_2025101001.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/10/09</date>
+	<contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+	<alink>info/info_2025100902.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/10/09</date>
+	<contents>10月7日（火）第52回 南関東地区プロ自転車競技大会結果</contents>
+	<alink>info/info_2025100901.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/10/06</date>
+	<contents>川崎競輪　ＣＴＣは３分前杯（10月10日～10月12日）開催情報</contents>
+	<alink>info/info_2025100602.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/10/06</date>
+	<contents>10月10日（金）～ 10月12日（日）　バンク内でレース観戦しよう！</contents>
+	<alink>info/info_2025100601.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2025/10/05</date>
+	<contents>１０月１１日（土）東龍之介選手トークショー</contents>
+	<alink>event/event_2025100501.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/10/02</date>
+	<contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+	<alink>info/info_2025100201.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/10/01</date>
+	<contents>10月3日（金）～ 10月5日（日）　バンク内でレース観戦しよう！</contents>
+	<alink>info/info_2025100101.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2025/10/01</date>
+	<contents>１０月４日（土）髙﨑千賀選手トークショー</contents>
+	<alink>event/event_2025100101.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/09/30</date>
+	<contents>川崎競輪　オッズパーク杯（10月3日～10月5日）開催情報</contents>
+	<alink>info/info_2025093001.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2025/09/29</date>
+	<contents>10月13日（月祝）ふじみ祭りin川崎競輪場</contents>
+	<alink>event/event_2025092901.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/09/29</date>
+	<contents>10月7日（火）第52回 南関東地区プロ自転車競技大会開催についてのお知らせ</contents>
+	<alink>info/info_2025092901.html</alink>
+	<target></target>
+</news>
+
+
+<news>
+	<kind>info</kind>
+	<date>2025/09/27</date>
+	<contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+	<alink>info/info_2025092701.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/09/26</date>
+	<contents>川崎競輪　競輪公式投票ＣＴＣ杯（9月28日～9月30日）開催情報</contents>
+	<alink>info/info_2025092604.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/09/26</date>
+s	<contents>本場休催期間中のメインスタンド指定席券の販売について</contents>
+	<alink>info/info_2025092603.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/09/26</date>
+	<contents>場外指定席無料券 配布終了のお知らせ</contents>
+	<alink>info/info_2025092602.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/09/26</date>
+	<contents>指定席スタンプカードサービス終了のお知らせ</contents>
+	<alink>info/info_2025092601.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2025/09/22</date>
+	<contents>川崎競輪場　自転車補助輪外し教室</contents>
+	<alink>event/event_2025092201.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/09/22</date>
+	<contents>9月28日（日）～ 9月30日（火）　バンク内でレース観戦しよう！</contents>
+	<alink>info/info_2025092201.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/09/21</date>
+	<contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+	<alink>info/info_2025092101.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/09/18</date>
+	<contents>川崎市営川崎競輪ミッドナイト ウィンチケミッドナイト競輪（9月21日～9月23日）開催情報</contents>
+	<alink>info/info_2025091801.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2025/09/15</date>
+	<contents>9/28(日) カワサキKEIRINマルシェ開催のお知らせ</contents>
+	<alink>event/event_2025091501.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/09/13</date>
+	<contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+	<alink>info/info_2025091301.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2025/09/12</date>
+	<contents>９月２８日（日）日野未来トークショー</contents>
+	<alink>event/event_2025091201.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/09/10</date>
+	<contents>川崎競輪　サンケイスポーツ杯争奪戦　ラ・ピスタ新橋カップ（9月14日～9月16日）開催情報</contents>
+	<alink>info/info_2025091002.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/09/10</date>
+	<contents>9月14日（日）～ 9月16日（火）　バンク内でレース観戦しよう！</contents>
+	<alink>info/info_2025091001.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2025/09/09</date>
+	<contents>【9/20(土)・21(日)】食と音楽で川崎を盛り上げる「川崎ドリームイベント2025」開催！</contents>
+	<alink>event/event_2025090901.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/09/07</date>
+	<contents>９月６日（土）川崎競輪所属選手の地域活動のお知らせ</contents>
+	<alink>info/info_2026021801.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/09/02</date>
+	<contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+	<alink>info/info_2025090201.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/08/30</date>
+	<contents>9月3日（水）～ 9月5日（金）　バンク内でレース観戦しよう！</contents>
+	<alink>info/info_2025083001.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/08/29</date>
+	<contents>川崎競輪　ニッカン・コム杯（9月3日～9月5日）開催情報</contents>
+	<alink>info/info_2025082801.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/08/27</date>
+	<contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+	<alink>info/info_2025080827.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/08/19</date>
+	<contents>川崎競輪　報知新聞社杯争奪戦（8月28日～8月30日）開催情報</contents>
+	<alink>info/info_2025081902.html</alink>
+	<target></target>
+</news>
+<!--
+<news>
+	<kind>info</kind>
+	<date>2025/08/19</date>
+	<contents>8月28日（木）～ 8月30日（土）　バンク内でレース観戦しよう！</contents>
+	<alink>info/info_2025081901.html</alink>
+	<target></target>
+</news>
+-->
+<news>
+	<kind>event</kind>
+	<date>2025/08/12</date>
+	<contents>オールスター競輪　ガラナ＆紅鮭が当たるキャンペーン！</contents>
+	<alink>event/event_2025081201.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/08/10</date>
+	<contents>8月11日（月祝）　イベント中止・変更について</contents>
+	<alink>info/info_2025080903.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/08/09</date>
+	<contents>8月10日（日）　イベント中止と変更について</contents>
+	<alink>info/info_2025080902.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2025/08/09</date>
+	<contents>８月１７日（日）イベント・ファンサービス情報</contents>
+	<alink>event/event_2025080901.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/08/08</date>
+	<contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+	<alink>info/info_2025080801.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/08/07</date>
+	<contents>女子オールスター競輪　佐藤水菜選手　『X』（旧：Twitter）応援キャンペーン</contents>
+	<alink>info/info_2025080701.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/08/05</date>
+	<contents>川崎競輪　オッズパーク杯　東京スポーツ杯争奪戦（8月9日～8月11日）開催情報</contents>
+	<alink>info/info_2025080502.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/08/05</date>
+	<contents>8月9日（土）～ 8月11日（月祝）　バンク内でレース観戦しよう！</contents>
+	<alink>info/info_2025080501.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2025/08/02</date>
+	<contents>８月９日（土）～１１日（月祝）地元選手日替わりトークショー</contents>
+	<alink>event/event_2025080201.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/07/31</date>
+	<contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+	<alink>info/info_2025073101.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/07/27</date>
+	<contents>川崎市営川崎競輪ミッドナイト ウィンチケミッドナイト競輪（7月31日～8月2日）開催情報</contents>
+	<alink>info/info_2025072701.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/07/23</date>
+	<contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+	<alink>info/info_2025072401.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2025/07/22</date>
+	<contents>８月１０(日）～１１（月・祝）川崎競輪場 こども夏祭り開催の中止について</contents>
+	<alink>event/event_2025071501.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/07/16</date>
+	<contents>川崎競輪　デイリースポーツ杯争奪戦　おつけもの慶２２周年カップ（7月24日～7月26日）開催情報</contents>
+	<alink>info/info_2025071602.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/07/16</date>
+	<contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+	<alink>info/info_2025071601.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/07/14</date>
+	<contents>7月24日（木）～ 7月26日（土）　バンク内でレース観戦しよう！</contents>
+	<alink>info/info_2025071401.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/07/11</date>
+	<contents>7/24～7/26川崎競輪FIナイター開催「デイリースポーツ杯争奪戦　おつけもの慶２２周年カップ」CTC投票キャンペーン！</contents>
+	<alink>info/info_2025071103.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2025/07/11</date>
+	<contents>７月２６日（土）カワサキKEIRINマルシェ開催のお知らせ</contents>
+	<alink>event/event_2025071103.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2025/07/11</date>
+	<contents>７月２６日（土）　奈良岡彩子選手引退報告会</contents>
+	<alink>event/event_2025071102.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/07/11</date>
+	<contents>川崎市営 川崎競輪ミッドナイトウィンチケミッドナイト競輪（7月16日～7月18日）開催情報</contents>
+	<alink>info/info_2025071101.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/07/07</date>
+	<contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+	<alink>info/info_2025070701.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2025/07/04</date>
+	<contents>７月２１日（月祝）イベント・ファンサービス情報</contents>
+	<alink>event/event_2025070401.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/07/02</date>
+	<contents>小田原市営川崎競輪ミッドナイト 競輪アプリはウインチケット杯（7月7日～9日）開催情報</contents>
+	<alink>info/info_2025070201.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/06/29</date>
+	<contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+	<alink>info/info_2025062901.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/06/27</date>
+	<contents>第68回オールスター競輪＆第1回女子オールスター競輪ファン投票の最終結果発表</contents>
+	<alink>info/info_2025062701.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/06/25</date>
+	<contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+	<alink>info/info_2025062502.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/06/25</date>
+	<contents>川崎競輪　神奈川新聞社杯争奪戦 スピチャン・スカパー杯（6月30日～7月2日）開催情報</contents>
+	<alink>info/info_2025062501.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/06/20</date>
+	<contents>6月30日（月）～7月2日（水）　バンク内でレース観戦しよう！</contents>
+	<alink>info/info_2025062002.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/06/20</date>
+	<contents>大浦彩瑛選手　千社札をお持ちの方へ</contents>
+	<alink>info/info_2025062001.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/06/18</date>
+	<contents>小田原市営川崎競輪ミッドナイト おトクにPLAY！オッズパーク杯（6月25日～6月27日）開催情報</contents>
+	<alink>info/info_2025061801.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2025/06/14</date>
+	<contents>６月１４日（土）イベント・ファンサービス情報</contents>
+	<alink>event/event_2025061401.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/06/07</date>
+	<contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+	<alink>info/info_2025060701.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/06/06</date>
+	<contents>【日本競輪選手養成所】第131回・132回選手候補生 募集中！</contents>
+	<alink>info/info_2025060601.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2025/06/05</date>
+	<contents>6月14日（土）　小原太樹選手宇都宮記念優勝報告会について</contents>
+	<alink>event/event_2025060501.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2025/06/03</date>
+	<contents>6/15(日)「ワグワンカワサキvol.3」イベントについて</contents>
+	<alink>event/event_2025060302.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2025/06/03</date>
+	<contents>６月１４日（土）イベント・ファンサービス情報</contents>
+	<alink>event/event_2025060301.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/06/01</date>
+	<contents>川崎市営川崎競輪ミッドナイト ウィンチケミッドナイト競輪（6月7日～6月9日）開催情報</contents>
+	<alink>info/info_2025060101.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/05/29</date>
+	<contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+	<alink>info/info_2025052901.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2025/05/28</date>
+	<contents>６月２２日（日）イベント・ファンサービス情報</contents>
+	<alink>event/event_2025052801.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/05/26</date>
+	<contents>小田原市営川崎競輪ミッドナイト 競輪アプリはウインチケット杯（5月29日～5月31日）開催情報</contents>
+	<alink>info/info_2025052601.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/05/23</date>
+	<contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+	<alink>info/info_2025052301.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/05/16</date>
+	<contents>川崎市営川崎競輪ミッドナイト ウィンチケミッドナイト競輪（5月23日～5月25日）開催情報</contents>
+	<alink>info/info_2025051601.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/05/14</date>
+	<contents>Tiktok　川崎競輪所属選手紹介ページ</contents>
+	<alink>info/info_2025051402.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/05/14</date>
+	<contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+	<alink>info/info_2025051401.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/05/12</date>
+	<contents>第68回オールスター競輪＆第1回女子オールスター競輪ファン投票のお知らせ</contents>
+	<alink>info/info_2025041101.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/05/07</date>
+	<contents>5/17(土)郡司浩平選手 桜花賞優勝報告会について</contents>
+	<alink>info/info_2025050702.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/05/07</date>
+	<contents>川崎競輪　スポーツニッポン杯争奪戦（5月15日～17日）開催情報</contents>
+	<alink>info/info_2025050701.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2025/05/07</date>
+	<contents>５月１７日（土）マジシャンＧＯ　マジックショー</contents>
+	<alink>event/event_2025050701.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/05/04</date>
+	<contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+	<alink>info/info_2025050402.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/05/04</date>
+	<contents>バンク内でレース観戦しよう！事前応募受付開始！</contents>
+	<alink>info/info_2025050401.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/04/30</date>
+	<contents>川崎競輪　TEL杯　7車立てならTIPSTAR（5月5日～5月7日）開催情報</contents>
+	<alink>info/info_2025043001.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/04/28</date>
+	<contents>ギャンブル等依存症問題啓発週間における取り組みについて</contents>
+	<alink>info/info_2025042802.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/04/28</date>
+	<contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+	<alink>info/info_2025042801.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2025/04/23</date>
+	<contents>５月４日（日）イベント・ファンサービス情報</contents>
+	<alink>event/event_2025042301.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/04/23</date>
+	<contents>川崎市営川崎競輪ミッドナイト ウィンチケミッドナイト競輪（4月28日～4月30日）開催情報</contents>
+	<alink>info/info_2025042301.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/04/22</date>
+	<contents>バンク内でレース観戦しよう！事前応募受付開始！</contents>
+	<alink>info/info_2025042202.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/04/22</date>
+	<contents>4月23日(水)～　川崎競輪場バス停について</contents>
+	<alink>info/info_2025042201.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/04/18</date>
+	<contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+	<alink>info/info_2025041801.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/04/06</date>
+	<contents>4/19～22川崎競輪GIII「開設76周年記念桜花賞 海老澤清杯」投票キャンペーン！</contents>
+	<alink>info/info_2025040301.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2025/04/04</date>
+	<contents>4月19日（土）・20日（日）かわさきアジアンフェスタin川崎競輪場</contents>
+	<alink>event/event_2025040401.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/04/03</date>
+	<contents>開設76周年記念桜花賞 海老澤清杯　インターネット投票キャンペーン</contents>
+	<alink>info/info_2025040302.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/04/03</date>
+	<contents>開設76周年記念 桜花賞・海老澤清杯 GIII　特設サイトオープンのお知らせ</contents>
+	<alink>info/info_2025040303.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2025/04/01</date>
+	<contents>【イベント場所変更】4月13日（日）大浦彩瑛選手初優勝報告会・桜花賞出場選手トークショー</contents>
+	<alink>event/event_2025040101.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/03/26</date>
+	<contents>川崎市営川崎競輪ミッドナイト ウィンチケミッドナイト競輪（4月4日～4月6日）開催情報</contents>
+	<alink>info/info_2025032601.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/03/21</date>
+	<contents>バンク内でレース観戦しよう！事前応募受付開始！</contents>
+	<alink>info/info_2025032101.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/03/19</date>
+	<contents>３月２２日(土)～４月２２日(火)　川崎競輪場バス停について</contents>
+	<alink>info/info_2025031901.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/03/14</date>
+	<contents>川崎競輪場に来たことない人は必見！？ 川崎競輪場の「見どころ」や「楽しみ方」をガイド！ おすすめのモデルコースを紹介します！</contents>
+	<alink>info/info_2025040101.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/03/13</date>
+	<contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+	<alink>info/info_2025031301.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/03/10</date>
+	<contents>令和7年4月からの新サービスについて</contents>
+	<alink>info/info_2025031001.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/03/08</date>
+	<contents>小田原市営川崎競輪ミッドナイト 競輪アプリはウインチケット杯（3月13日～15日）開催情報</contents>
+	<alink>info/info_2025030801.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/03/04</date>
+	<contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+	<alink>info/info_2025030401.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2025/03/03</date>
+	<contents>川崎競輪場　自転車補助輪外し教室開催！</contents>
+	<alink>event/event_2025030301.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2025/02/27</date>
+	<contents>３月２日（日）イベント・ファンサービス情報</contents>
+	<alink>event/event_2025022701.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/02/26</date>
+	<contents>川崎市営川崎競輪ミッドナイト ウィンチケミッドナイト競輪（3月4日～3月7日）開催情報</contents>
+	<alink>info/info_2025022601.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/02/25</date>
+	<contents>2月24日（月祝）川崎競輪所属選手の地域活動のお知らせ</contents>
+	<alink>info/info_2025022501.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/02/23</date>
+	<contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+	<alink>info/info_2025022301.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/02/20</date>
+	<contents>２月1５日（土）川崎競輪所属選手の地域活動のお知らせ</contents>
+	<alink>info/info_2025022001.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/02/17</date>
+	<contents>２月７日（金）川崎競輪所属選手の地域活動のお知らせ</contents>
+	<alink>info/info_2025021701.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/02/13</date>
+	<contents>小田原市営川崎競輪ミッドナイト 競輪アプリはウインチケット杯（2月23日～25日）開催情報</contents>
+	<alink>info/info_2025021301.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2025/02/13</date>
+	<contents>２月２４日（月休）イベント・ファンサービス情報</contents>
+	<alink>event/event_2025021301.html</alink>
+	<target></target>
+</news>
+
+
+<news>
+	<kind>info</kind>
+	<date>2025/02/02</date>
+	<contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+	<alink>info/info_2025020202.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/02/02</date>
+	<contents>【お知らせ】Youtubeチャンネル「川崎仮面の俺にまかせろ」について</contents>
+	<alink>info/info_2025020201.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/01/31</date>
+	<contents>２月６日(木)～３月２１日(金)　川崎競輪場バス停について</contents>
+	<alink>info/info_2025013101.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/01/27</date>
+	<contents>川崎競輪　ジャパンカップ×HPCJC　ウィンチケット杯（2月3日～2月5日）開催情報</contents>
+	<alink>info/info_2025012702.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/01/27</date>
+	<contents>競輪公式投票CTC　HPCJC開催記念キャンペーン</contents>
+	<alink>info/info_2025012701.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/01/24</date>
+	<contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+	<alink>info/info_2025012401.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/01/22</date>
+	<contents>バンク内でレース観戦しよう！事前応募受付開始！</contents>
+	<alink>info/info_2025012201.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/01/20</date>
+	<contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+	<alink>info/info_2025012001.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/01/17</date>
+	<contents>川崎競輪　デイリースポーツ杯　競輪公式投票CTC杯（1月25日～1月27日）開催情報</contents>
+	<alink>info/info_2025011701.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2025/01/16</date>
+	<contents>小林覚選手　引退報告会</contents>
+	<alink>event/event_2025011602.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2025/01/16</date>
+	<contents>玉袋筋太郎　トークショー</contents>
+	<alink>event/event_2025011601.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/01/12</date>
+	<contents>バンク内でレース観戦しよう！事前応募受付開始！</contents>
+	<alink>info/info_2025011201.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/01/08</date>
+	<contents>1月11日（土）消防出初式 開催のお知らせ</contents>
+	<alink>info/info_2025010802.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/01/08</date>
+	<contents>小田原市営川崎競輪ミッドナイト 競輪アプリはウインチケット杯（1月20日～22日）開催情報</contents>
+	<alink>info/info_2025010801.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2025/01/05</date>
+	<contents>【お知らせ】Youtubeチャンネル「川崎仮面の俺にまかせろ」について</contents>
+	<alink>info/info_2025010501.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/12/26</date>
+	<contents>川崎市営川崎競輪ミッドナイト ウィンチケミッドナイト競輪（1月5日～1月7日）開催情報</contents>
+	<alink>info/info_2024122601.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2024/12/26</date>
+	<contents>１２月３０日（月）イベント・ファンサービス情報</contents>
+	<alink>event/event_2024122601.html</alink>
+	<target></target>
+</news>
+
+<!--
+<news>
+	<kind>info</kind>
+	<date>2024/12/24</date>
+	<contents>川崎競輪場　歴代優勝者情報を更新しました。</contents>
+	<alink>race/kawasaki_winner.html</alink>
+	<target></target>
+</news>
+-->
+
+<news>
+	<kind>info</kind>
+	<date>2024/12/24</date>
+	<contents>12月14日（土）川崎競輪所属選手の地域活動のお知らせ</contents>
+	<alink>info/info_2024122401.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/12/22</date>
+	<contents>【お知らせ】Youtubeチャンネル「川崎仮面の俺にまかせろ」について</contents>
+	<alink>info/info_2024122201.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/12/21</date>
+	<contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+	<alink>info/info_2024122101.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/12/13</date>
+	<contents>川崎競輪　東京スポーツ杯争奪戦　ＴＩＰＳＴＡＲ杯（12月22日～12月24日）開催情報</contents>
+	<alink>info/info_2024121302.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/12/13</date>
+	<contents>【お知らせ】Youtubeチャンネル「川崎仮面の俺にまかせろ」について</contents>
+	<alink>info/info_2024121303.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2024/12/13</date>
+	<contents>12月22日（日）　地元選手年末挨拶＆郡司浩平選手によるグランプリに向けてのご挨拶</contents>
+	<alink>event/event_2024121301.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/12/13</date>
+	<contents>１２月３０日（月）「ＫＥＩＲＩＮグランプリ２０２４」発売等に関するお知らせ</contents>
+	<alink>info/info_2024121301.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/12/12</date>
+	<contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+	<alink>info/info_2024121201.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/12/03</date>
+	<contents>川崎市営川崎競輪ミッドナイト ウィンチケミッドナイト競輪（12月12日～14日）開催情報</contents>
+	<alink>info/info_2024120301.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/12/03</date>
+	<contents>バンク内でレース観戦しよう！事前応募受付開始！</contents>
+	<alink>info/info_2024120302.html</alink>
+	<target></target>
+</news>
+
+
+
+<news>
+	<kind>info</kind>
+	<date>2024/11/25</date>
+	<contents>川崎市営川崎競輪ミッドナイト ウィンチケミッドナイト競輪（11月30日～12月2日）開催情報</contents>
+	<alink>info/info_2024112501.html</alink>
+	<target></target>
+</news>
+
+<!--
+<news>
+	<kind>info</kind>
+	<date>2024/11/02</date>
+	<contents>11/2(土)～3(日)佐世保FIナイター場外 発売中止について</contents>
+	<alink>info/info_2024110201.html</alink>
+	<target></target>
+</news>
+-->
+
+<news>
+	<kind>info</kind>
+	<date>2024/12/02</date>
+	<contents>「２０２５年版神奈川支部カレンダー」配布について</contents>
+	<alink>info/info_2024120201.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/11/30</date>
+	<contents>【お知らせ】Youtubeチャンネル「川崎仮面の俺にまかせろ」について</contents>
+	<alink>info/info_2024113002.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/11/30</date>
+	<contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+	<alink>info/info_2024113001.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2024/11/26</date>
+	<contents>川崎競輪場内売店使用者の募集について</contents>
+	<alink>event/event_2024112601.html</alink>
+	<target></target>
+</news>
+
+
+<news>
+	<kind>info</kind>
+	<date>2024/11/18</date>
+	<contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+	<alink>info/info_2024111801.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/11/15</date>
+	<contents>小田原市営川崎競輪ミッドナイト 競輪アプリはウインチケット杯（11月18日～20日）開催情報</contents>
+	<alink>info/info_2024111501.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2024/11/12</date>
+	<contents>１１月２３日、２４日　競輪祭イベントin 川崎競輪場</contents>
+	<alink>event/event_2024111201.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/11/12</date>
+	<contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+	<alink>info/info_2024111201.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/11/06</date>
+	<contents>川崎市営川崎競輪ミッドナイト ウィンチケミッドナイト競輪（11月12日～14日）開催情報</contents>
+	<alink>info/info_2024110601.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/11/05</date>
+	<contents>２０２５年版競輪カレンダーの配布について</contents>
+	<alink>info/info_2024110501.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2024/10/29</date>
+	<contents>１１月９日（土）佐々木眞也選手・福田知也選手GIII優勝報告会</contents>
+	<alink>event/event_2024102901.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/10/24</date>
+	<contents>「第51回南関東地区プロ自転車競技大会」が開催されました！</contents>
+	<alink>info/info_2024102401.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/10/18</date>
+	<contents>「FAXサービス」終了について（お知らせ）</contents>
+	<alink>info/info_2024101801.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/10/10</date>
+	<contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+	<alink>info/info_2024101001.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/10/09</date>
+	<contents>西エリア施設のリニューアルについて</contents>
+	<alink>info/info_2024100901.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/10/07</date>
+	<contents>花月園競輪名物　ふくふく亭「煮込みライス」限定復活！</contents>
+	<alink>info/info_2024100701.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/10/03</date>
+	<contents>第１０回大阪・関西万博協賛競輪全国都市緑化かわさきフェア開催川崎市制１００周年記念GIII　特設サイトオープンのお知らせ</contents>
+	<alink>info/info_2024100301.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/10/02</date>
+	<contents>第１０回　大阪・関西万博協賛競輪　全国都市緑化かわさきフェア開催　川崎市制１００周年記念　GIII　インターネット投票キャンペーン</contents>
+	<alink>info/info_2024100201.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/10/02</date>
+	<contents>10/11～14川崎競輪GIII「第10回　大阪・関西万博協賛競輪　全国都市緑化かわさきフェア開催　川崎市制100周年記念　GIII」投票キャンペーン！</contents>
+	<alink>info/info_2024100101.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/09/29</date>
+	<contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+	<alink>info/info_2024092901.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/09/28</date>
+	<contents>Youtubeチャンネル「川崎仮面の俺にまかせろ」について</contents>
+	<alink>info/info_2024092801.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/09/26</date>
+	<contents>川崎競輪　おつけもの慶２１周年カップ　スポーツニッポン杯争奪戦（9月29日～10月1日）開催情報</contents>
+	<alink>info/info_2024092502.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/09/26</date>
+	<contents>9/29～10/1川崎競輪FⅠナイター開催「おつけもの慶２１周年カップ　スポーツニッポン杯争奪戦」CTC投票キャンペーン！</contents>
+	<alink>info/info_2024092402.html</alink>
+	<target></target>
+</news>
+
+
+<news>
+	<kind>info</kind>
+	<date>2024/09/25</date>
+	<contents>バンク内でレース観戦しよう！事前応募受付開始！</contents>
+	<alink>info/info_2024092501.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/09/24</date>
+	<contents>Youtubeチャンネル「川崎仮面の俺にまかせろ」について</contents>
+	<alink>info/info_2024092403.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/09/24</date>
+	<contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+	<alink>info/info_2024092401.html</alink>
+	<target></target>
+</news>
+<!--
+<news>
+	<kind>info</kind>
+	<date>2024/09/21</date>
+	<contents>10月23日（水）第51回 南関東地区プロ自転車競技大会開催についてのお知らせ</contents>
+	<alink>info/info_2024092101.html</alink>
+	<target></target>
+</news>
+-->
+<news>
+	<kind>event</kind>
+	<date>2024/09/20</date>
+	<contents>９月２８日（土）川崎競輪　『大阪・関西万博協賛競輪GIII』川崎競輪ＰＲイベント</contents>
+	<alink>event/event_2024092001.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/09/19</date>
+	<contents>9/23(月・祝)「おつけもの慶」コラボイベントについて</contents>
+	<alink>info/info_2024091901.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/09/16</date>
+	<contents>川崎市営川崎競輪ミッドナイト ウィンチケミッドナイト競輪（9月24日～26日）開催情報</contents>
+	<alink>info/info_2024091601.html</alink>
+	<target></target>
+</news>
+
+<!--
+<news>
+	<kind>info</kind>
+	<date>2024/09/13</date>
+	<contents>郡司浩平選手　全日本選抜競輪優勝祝勝会　一般参加について</contents>
+	<alink>info/info_2024091301.html</alink>
+	<target></target>
+</news>
+-->
+
+<news>
+	<kind>info</kind>
+	<date>2024/09/07</date>
+	<contents>バンク内でレース観戦しよう！事前応募受付開始！</contents>
+	<alink>info/info_2024090701.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2024/09/06</date>
+	<contents>9月29日(日）　Youtuberケイトリと一緒に競輪を学ぼう</contents>
+	<alink>event/event_2024090601.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2024/09/05</date>
+	<contents>【本日(9/16)予定通り開催】9月14日（土）～9月16日（月祝）川崎競輪場　秋のイベント</contents>
+	<alink>event/event_2024090501.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2024/09/03</date>
+	<contents>９月１６日（月祝）イベント・ファンサービス情報</contents>
+	<alink>event/event_2024090301.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/08/27</date>
+	<contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+	<alink>info/info_2024082701.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/08/23</date>
+	<contents>川崎競輪　サテライト横浜カップ　サンケイスポーツ杯争奪戦（8月28日～30日）開催情報</contents>
+	<alink>info/info_2024082301.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/08/19</date>
+	<contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+	<alink>info/info_2024081901.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/08/19</date>
+	<contents>ニコニコ生放送「川崎仮面の俺にまかせろ」について</contents>
+	<alink>info/info_2024081902.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2024/08/17</date>
+	<contents>８月２４日（土）小田原記念　うちわプレゼント</contents>
+	<alink>event/event_2024081701.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/08/16</date>
+	<contents>バンク内でレース観戦しよう！事前応募受付開始！</contents>
+	<alink>info/info_2024081601.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/08/14</date>
+	<contents>川崎競輪　報知新聞社杯争奪戦　（8月20日～22日）開催情報</contents>
+	<alink>info/info_2024081401.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/08/12</date>
+	<contents>バンク内でレース観戦しよう！事前応募受付開始！</contents>
+	<alink>info/info_2024081201.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/08/09</date>
+	<contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+	<alink>info/info_2024080901.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/08/09</date>
+	<contents>ニコニコ生放送「川崎仮面の俺にまかせろ」について</contents>
+	<alink>info/info_2024080902.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2024/08/06</date>
+	<contents>８月１８日（日）イベント・ファンサービス情報</contents>
+	<alink>event/event_2024080601.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/08/06</date>
+	<contents>川崎競輪　川崎沖縄県人会１００周年杯　（8月10日～12日）開催情報</contents>
+	<alink>info/info_2024080602.html</alink>
+	<target></target>
+</news>
+
+
+<news>
+	<kind>info</kind>
+	<date>2024/08/06</date>
+	<contents>第67回オールスター競輪GI場外キャンペーン『スクラッチチャンス』について</contents>
+	<alink>info/info_2024080601.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2024/08/05</date>
+	<contents>８月１０日（土）・１１日（日）佐藤水菜選手　応援うちわプレゼント</contents>
+	<alink>event/event_2024080501.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2024/08/01</date>
+	<contents>8月10日（土）～12日（月）　川崎競輪　『沖縄音楽＆キッチンカー』『アーバンスポーツ』イベント</contents>
+	<alink>event/event_2024073102.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2024/08/01</date>
+	<contents>８月１１日（日）川崎競輪場内 パブリックビューイング　～佐藤水菜選手を応援しよう～</contents>
+	<alink>event/event_2024073101.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/07/30</date>
+	<contents>バンク内でレース観戦しよう！事前応募受付開始！</contents>
+	<alink>info/info_2024073001.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/07/28</date>
+	<contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+	<alink>info/info_2024072801.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/07/28</date>
+	<contents>ニコニコ生放送「川崎仮面の俺にまかせろ」について</contents>
+	<alink>info/info_2024072802.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/07/25</date>
+	<contents>川崎名産品が当たる！ネット投票キャンペーン</contents>
+	<alink>info/info_2024072501.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/07/24</date>
+	<contents>川崎競輪　ラ・ピスタ新橋カップ　神奈川新聞社杯争奪戦（7月29日～31日）開催情報</contents>
+	<alink>info/info_2024072401.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/07/18</date>
+	<contents>7月13日（土）川崎競輪所属選手の地域活動のお知らせ</contents>
+	<alink>info/info_2024071801.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2024/07/18</date>
+	<contents>７月３１日（水）北井佑季選手トークショー</contents>
+	<alink>event/event_2024071801.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/07/15</date>
+	<contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+	<alink>info/info_2024071501.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/07/15</date>
+	<contents>ニコニコ生放送「川崎仮面の俺にまかせろ」について</contents>
+	<alink>info/info_2024071502.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/07/12</date>
+	<contents>佐藤水菜選手オリンピック出場予定競技について</contents>
+	<alink>info/info_2024071201.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/07/10</date>
+	<contents>バンク内でレース観戦しよう！事前応募受付開始！</contents>
+	<alink>info/info_2024071001.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/07/08</date>
+	<contents>川崎競輪　やっぱ！オズパ！杯　富士通フロンテックカップ（7月16日～18日）開催情報</contents>
+	<alink>info/info_2024070801.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2024/07/02</date>
+	<contents>７月１５日（月祝）イベント・ファンサービス情報</contents>
+	<alink>event/event_2024070201.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/06/26</date>
+	<contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+	<alink>info/info_2024062602.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/06/26</date>
+	<contents>ニコニコ生放送「川崎仮面の俺にまかせろ」について</contents>
+	<alink>info/info_2024062601.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2024/06/21</date>
+	<contents>６月２９日（土）　川崎競輪　地元選手トークショー</contents>
+	<alink>event/event_2024062101.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/06/20</date>
+	<contents>川崎競輪　東京中日スポーツ杯争奪戦・チャリロト杯（6月27日～29日）開催情報</contents>
+	<alink>info/info_2024062001.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2024/06/15</date>
+	<contents>６月２９日（土）　川崎競輪　キッズイベント</contents>
+	<alink>event/event_2024061601.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/06/14</date>
+	<contents>バンク内でレース観戦しよう！事前応募受付開始！</contents>
+	<alink>info/info_2024061401.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/06/13</date>
+	<contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+	<alink>info/info_2024061301.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2024/06/08</date>
+	<contents>6月16日（日）イベント・ファンサービス情報</contents>
+	<alink>event/event_2024060801.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/06/07</date>
+	<contents>川崎市営川崎競輪ミッドナイト　ウィンチケミッドナイト競輪（6月13日～15日）開催情報</contents>
+	<alink>info/info_2024060701.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/06/04</date>
+	<contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+	<alink>info/info_2024060401.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/05/29</date>
+	<contents>川崎市営川崎競輪ミッドナイト　ウィンチケミッドナイト競輪（6月4日～6日）開催情報</contents>
+	<alink>info/info_2024052901.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2024/05/22</date>
+	<contents>５月２６日（日）イベント・ファンサービス情報</contents>
+	<alink>event/event_2024052201.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>event</kind>
+	<date>2024/05/06</date>
+	<contents>6/9(日)「カワサキSTCULFES24」イベントについて</contents>
+	<alink>event/event_2024050601.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/05/03</date>
+	<contents>【訂正】Youtubeチャンネル「川崎仮面の俺にまかせろ」について</contents>
+	<alink>info/info_2024050301.html</alink>
+	<target></target>
+</news>
+
+<!--
+<news>
+	<kind>info</kind>
+	<date>2024/05/02</date>
+	<contents>Youtubeチャンネル「川崎仮面の俺にまかせろ」について</contents>
+	<alink>info/info_2024050201.html</alink>
+	<target></target>
+</news>
+-->
+
+<news>
+	<kind>info</kind>
+	<date>2024/04/28</date>
+	<contents>ギャンブル等依存症問題啓発週間における取組みについて</contents>
+	<alink>info/info_2024042801.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/04/27</date>
+	<contents>５月３日（金・祝）　SPEEDチャンネル放送開始時刻について</contents>
+	<alink>info/info_2024042701.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/04/26</date>
+	<contents>川崎競輪　ＴＥＬ杯　スピチャン・スカパー杯（5月3日～5日）開催情報</contents>
+	<alink>info/info_2024042601.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/04/23</date>
+	<contents>「桜花賞」決勝出場選手サイン入りジャンパーが当たるCTC投票キャンペーンについて</contents>
+	<alink>info/info_2024042201.html</alink>
+	<target></target>
+</news>
+
+    <news>
+        <kind>event</kind>
+        <date>2024/04/19</date>
+        <contents>５月４日（土・祝）　イベント・ファンサービス情報</contents>
+        <alink>event/event_2024041902.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>event</kind>
+        <date>2024/04/19</date>
+        <contents>４月２７（土）、２８日（日）　アジアンフェスタ in 川崎競輪</contents>
+        <alink>event/event_2024041901.html</alink>
+        <target></target>
+    </news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/04/18</date>
+	<contents>川崎競輪所属選手から「児童養護施設すまいる」に本を贈呈しました。</contents>
+	<alink>info/info_2024041801.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/04/10</date>
+	<contents>第67回オールスター競輪＆女子オールスター競輪ファン投票のお知らせ</contents>
+	<alink>info/info_2024041001.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/04/03</date>
+	<contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+	<alink>info/info_2024040301.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/03/25</date>
+	<contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+	<alink>info/info_2024032501.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/03/21</date>
+	<contents>桜花賞特設サイトオープンのお知らせ</contents>
+	<alink>info/info_2024032102.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/03/21</date>
+	<contents>桜花賞をバンク内で観戦しよう！事前応募受付開始！</contents>
+	<alink>info/info_2024032101.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/03/21</date>
+	<contents>4/4～7川崎競輪GIII「大阪・関西万博協賛　川崎市制100周年 開設75周年記念桜花賞 海老澤清杯」投票キャンペーン！</contents>
+	<alink>info/info_2024031902.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/03/21</date>
+	<contents>大阪・関西万博協賛　川崎市制100周年 開設75周年記念桜花賞 海老澤清杯　インターネット投票キャンペーン</contents>
+	<alink>info/info_2024031903.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/03/20</date>
+	<contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+	<alink>info/info_2024032001.html</alink>
+	<target></target>
+</news>
+
+    <news>
+	<kind>info</kind>
+	<date>2024/03/19</date>
+	<contents>川崎競輪　競輪スマートリレー サンケイスポーツ・夕刊フジ杯（3月26日～28日）開催情報</contents>
+	<alink>info/info_2024031901.html</alink>
+	<target></target>
+</news>
+
+    <news>
+        <kind>info</kind>
+        <date>2024/03/18</date>
+        <contents>タイムズ富士見公園平面駐車場について</contents>
+        <alink>info/info_2024031801.html</alink>
+        <target></target>
+    </news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/03/09</date>
+	<contents>川崎競輪　富士通フロンテックカップ（3月21日～23日）開催情報</contents>
+	<alink>info/info_2024030902.html</alink>
+	<target></target>
+</news>
+
+<news>
+	<kind>info</kind>
+	<date>2024/03/09</date>
+	<contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+	<alink>info/info_2024030901.html</alink>
+	<target></target>
+</news>
+
+    <news>
+        <kind>info</kind>
+        <date>2024/03/08</date>
+        <contents>バンク内でレース観戦しよう！事前応募受付開始！</contents>
+        <alink>info/info_2024030801.html</alink>
+        <target></target>
+    </news>
+
+      <news>
+        <kind>info</kind>
+        <date>2024/03/06</date>
+        <contents>2月23日（金）川崎競輪所属選手の地域活動のお知らせ</contents>
+        <alink>info/info_2024030603.html</alink>
+        <target></target>
+      </news>
+
+      <news>
+        <kind>info</kind>
+        <date>2024/03/06</date>
+        <contents>2月17日（土）川崎競輪所属選手の地域活動のお知らせ</contents>
+        <alink>info/info_2024030602.html</alink>
+        <target></target>
+      </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2024/03/06</date>
+        <contents>川崎競輪　あいわしぼりカップ（3月10日～12日）開催情報</contents>
+        <alink>info/info_2024030601.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2024/03/05</date>
+        <contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+        <alink>info/info_2024030501.html</alink>
+        <target></target>
+    </news>
+
+
+    <news>
+        <kind>info</kind>
+        <date>2024/03/01</date>
+        <contents>ＣＴＣ電話投票サービス（電話投票・情報案内）における電話番号の変更について</contents>
+        <alink>info/info_2024030101.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2024/02/28</date>
+        <contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+        <alink>info/info_2024022801.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2024/02/26</date>
+        <contents>川崎市営川崎競輪ミッドナイト　ウィンチケミッドナイト競輪（3月5日～7日）開催情報</contents>
+        <alink>info/info_2024022601.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>event</kind>
+        <date>2024/02/26</date>
+        <contents>3月3日（日）　イベント・ファンサービス情報</contents>
+        <alink>event/event_2024022601.html</alink>
+        <target></target>
+    </news>
+
+
+    <news>
+        <kind>info</kind>
+        <date>2024/02/25</date>
+        <contents>川崎市営川崎競輪ミッドナイト　オッズパーク杯（2月28日～3月1日）開催情報</contents>
+        <alink>info/info_2024022501.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2024/02/24</date>
+        <contents>バンク内でレース観戦しよう！事前応募受付開始！</contents>
+        <alink>info/info_2024022401.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2024/02/23</date>
+        <contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+        <alink>info/info_2024022301.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2024/02/20</date>
+        <contents>川崎競輪　みんなの競輪カップ（2月24日～26日）開催情報</contents>
+        <alink>info/info_2024022001.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2024/02/16</date>
+        <contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+        <alink>info/info_2024021601.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2024/02/09</date>
+        <contents>川崎市営川崎競輪ミッドナイト　ウィンチケミッドナイト競輪（2月16日～18日）開催情報</contents>
+        <alink>info/info_2024020901.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2024/02/08</date>
+        <contents>バンク内でレース観戦しよう！事前応募受付開始！</contents>
+        <alink>info/info_2024020801.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>event</kind>
+        <date>2024/02/06</date>
+        <contents>2月12日（月）　イベント・ファンサービス情報</contents>
+        <alink>event/event_2024020601.html</alink>
+        <target></target>
+    </news>
+
+      <news>
+        <kind>info</kind>
+        <date>2024/02/06</date>
+        <contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+        <alink>info/info_2024020602.html</alink>
+        <target></target>
+      </news>
+
+      <news>
+        <kind>info</kind>
+        <date>2024/02/06</date>
+        <contents>2月6日の前売投票所発売について</contents>
+        <alink>info/info_2024020601.html</alink>
+        <target></target>
+      </news>
+
+      <news>
+        <kind>info</kind>
+        <date>2024/02/05</date>
+        <contents>能登半島地震の被災者支援として、郡司浩平選手及び日本競輪選手会神奈川支部が川崎市を通じて日本赤十字社「令和６年能登半島地震義援金」に寄付を行いました！</contents>
+        <alink>info/info_2024020501.html</alink>
+        <target></target>
+      </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2024/02/01</date>
+        <contents>川崎競輪　サテライト横浜カップ　東京中日スポーツ杯争奪戦（2月7日～2月9日）開催情報</contents>
+        <alink>info/info_2024020101.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>event</kind>
+        <date>2024/01/31</date>
+        <contents>2月4日（日）　イベント・ファンサービス情報</contents>
+        <alink>event/event_2024013101.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2024/01/26</date>
+        <contents>バンク内でレース観戦しよう！事前応募受付開始！</contents>
+        <alink>info/info_2024012601.html</alink>
+        <target></target>
+    </news>
+
+      <news>
+        <kind>info</kind>
+        <date>2024/01/25</date>
+        <contents>1月23日（火）川崎競輪所属選手が税務署のスマホ納税をPRしました！</contents>
+        <alink>info/info_2024012503.html</alink>
+        <target></target>
+      </news>
+
+      <news>
+        <kind>info</kind>
+        <date>2024/01/25</date>
+        <contents>1月23日（火）川崎競輪所属選手の地域活動のお知らせ</contents>
+        <alink>info/info_2024012502.html</alink>
+        <target></target>
+      </news>
+
+      <news>
+        <kind>info</kind>
+        <date>2024/01/25</date>
+        <contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+        <alink>info/info_2024012501.html</alink>
+        <target></target>
+      </news>
+
+    <news>
+        <kind>event</kind>
+        <date>2024/01/24</date>
+        <contents>1/27(土)郡司浩平選手 桜花賞優勝報告会について</contents>
+        <alink>event/event_2024012401.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2024/01/23</date>
+        <contents>川崎競輪　チャリロト杯（1月26日～1月28日）開催情報</contents>
+        <alink>info/info_2024012302.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2024/01/23</date>
+        <contents>1/26～28川崎競輪FII夜開催「チャリロト杯」投票キャンペーン！</contents>
+        <alink>info/info_2024012301.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>event</kind>
+        <date>2024/01/20</date>
+        <contents>1月21日　桜花賞イベント変更・中止について</contents>
+        <alink>event/event_2024012001.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2024/01/19</date>
+        <contents>1/20(土)永塚祐子選手のイベント出演中止について</contents>
+        <alink>info/info_2024011901.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2024/01/17</date>
+        <contents>桜花賞「専門紙PDF新聞サービス」について</contents>
+        <alink>info/info_2024011703.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2024/01/17</date>
+        <contents>バンク内でレース観戦しよう！事前応募受付開始！</contents>
+        <alink>info/info_2024011702.html</alink>
+        <target></target>
+    </news>
+
+      <news>
+        <kind>info</kind>
+        <date>2024/01/17</date>
+        <contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+        <alink>info/info_2024011701.html</alink>
+        <target></target>
+      </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2024/01/15</date>
+        <contents>1/18～21桜花賞「バンク内観戦」当日応募について</contents>
+        <alink>info/info_2024011501.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>event</kind>
+        <date>2024/01/08</date>
+        <contents>1月14日（日）　イベント・ファンサービス情報</contents>
+        <alink>event/event_2024010801.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2024/01/05</date>
+        <contents>桜花賞をバンク内で観戦しよう！事前応募受付開始！</contents>
+        <alink>info/info_2024010502.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2024/01/05</date>
+        <contents>川崎市制１００周年・川崎競輪開設７４周年記念桜花賞　海老澤清杯　インターネット投票キャンペーン</contents>
+        <alink>info/info_2024010501.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2023/12/31</date>
+        <contents>桜花賞特設サイトオープンのお知らせ</contents>
+        <alink>info/info_2023123001.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2023/12/30</date>
+        <contents>1/18～21川崎競輪GIII「川崎市制１００周年・川崎競輪開設７４周年記念桜花賞　海老澤清杯」投票キャンペーン！</contents>
+        <alink>info/info_2023122901.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>event</kind>
+        <date>2023/12/30</date>
+        <contents>1月8日（月・祝）イベント・ファンサービス情報</contents>
+        <alink>event/event_2023122801.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>event</kind>
+        <date>2023/12/26</date>
+        <contents>１２月３０日（土）　イベント・ファンサービス情報</contents>
+        <alink>event/event_2023122601.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2023/12/21</date>
+        <contents>川崎仮面の『ＫＥＩＲＩＮグランプリ2023』ＧＰ予想解説を配信！！</contents>
+        <alink>info/info_2023122101.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>event</kind>
+        <date>2023/12/21</date>
+        <contents>１２月２４日（日）　イベント・ファンサービス情報</contents>
+        <alink>event/event_2023122101.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2023/12/20</date>
+        <contents>小田原市営川崎競輪ミッドナイト　競輪アプリはウィンチケット（12月26日～28日）開催情報</contents>
+        <alink>info/info_2023122001.html</alink>
+        <target></target>
+    </news>
+
+      <news>
+        <kind>info</kind>
+        <date>2023/12/20</date>
+        <contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+        <alink>info/info_2023122002.html</alink>
+        <target></target>
+      </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2023/12/18</date>
+        <contents>川崎競輪　オッズパーク杯（12月21日～12月23日）開催情報</contents>
+        <alink>info/info_2023121801.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>event</kind>
+        <date>2023/12/15</date>
+        <contents>12月16日（土）・17日（日）　イベント・ファンサービス情報</contents>
+        <alink>event/event_2023121501.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2023/12/14</date>
+        <contents>駐車場及び駐車料金サービスの変更について</contents>
+        <alink>info/info_2023121401.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2023/12/13</date>
+        <contents>12月2日（土）川崎競輪所属選手の地域活動のお知らせ</contents>
+        <alink>info/info_2023121302.html</alink>
+        <target></target>
+    </news>
+
+      <news>
+        <kind>info</kind>
+        <date>2023/12/12</date>
+        <contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+        <alink>info/info_2023121201.html</alink>
+        <target></target>
+      </news>
+
+         <news>
+        <kind>info</kind>
+        <date>2023/12/09</date>
+        <contents>川崎競輪　ラ・ピスタ新橋カップ　東京スポーツ杯争奪戦（12月13日～12月15日）開催情報</contents>
+        <alink>info/info_2023121301.html</alink>
+        <target></target>
+    </news>
+
+     <news>
+        <kind>info</kind>
+        <date>2023/12/08</date>
+        <contents>【12月21日(木)～23日(土)】エリア51でバンク内観戦！ 事前抽選受付開始！</contents>
+        <alink>info/info_2023120801.html</alink>
+        <target></target>
+     </news>
+
+     <news>
+        <kind>info</kind>
+        <date>2023/12/07</date>
+        <contents>１２月３０日（土）「ＫＥＩＲＩＮグランプリ２０２３」発売等に関するお知らせ</contents>
+        <alink>info/info_2023120702.html</alink>
+        <target></target>
+     </news>
+
+     <news>
+        <kind>info</kind>
+        <date>2023/12/07</date>
+        <contents>地元競輪選手のチャリティーオークション売上金を川崎市に寄付しました！</contents>
+        <alink>info/info_2023120701.html</alink>
+        <target></target>
+     </news>
+
+     <news>
+        <kind>info</kind>
+        <date>2023/12/05</date>
+        <contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+        <alink>info/info_2023120501.html</alink>
+        <target></target>
+     </news>
+
+    <news>
+        <kind>event</kind>
+        <date>2023/12/04</date>
+        <contents>12月10日（日）　イベント・ファンサービス情報</contents>
+        <alink>event/event_2023120401.html</alink>
+        <target></target>
+    </news>
+
+         <news>
+        <kind>info</kind>
+        <date>2023/11/30</date>
+        <contents>川崎競輪　神奈川新聞社杯争奪戦（12月6日～12月8日）開催情報</contents>
+        <alink>info/info_2023120601.html</alink>
+        <target></target>
+    </news>
+
+         <news>
+        <kind>info</kind>
+        <date>2023/11/29</date>
+        <contents>「２０２４年版神奈川支部カレンダー」プレゼントのお知らせ</contents>
+        <alink>info/info_2023112901.html</alink>
+        <target></target>
+    </news>
+
+         <news>
+        <kind>info</kind>
+        <date>2023/11/25</date>
+        <contents>【12月6日(水)～、12月13日(水)～】エリア51でバンク内観戦！ 事前抽選受付開始！</contents>
+        <alink>info/info_2023112502.html</alink>
+        <target></target>
+    </news>
+
+         <news>
+        <kind>info</kind>
+        <date>2023/11/25</date>
+        <contents>川崎市営川崎競輪ミッドナイト　ウィンチケミッドナイト競輪（11月29日～12月1日）開催情報</contents>
+        <alink>info/info_2023112501.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2023/11/24</date>
+        <contents>11月19日（日）川崎競輪所属選手の地域活動のお知らせ</contents>
+        <alink>info/info_2023112402.html</alink>
+        <target></target>
+    </news>
+
+     <news>
+        <kind>info</kind>
+        <date>2023/11/24</date>
+        <contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+        <alink>info/info_2023112401.html</alink>
+        <target></target>
+     </news>
+
+         <news>
+        <kind>info</kind>
+        <date>2023/11/21</date>
+        <contents>川崎競輪　楽天ポイント使えるKドリ杯・おつけもの慶20周年カップ（11月24日～11月26日）開催情報</contents>
+        <alink>info/info_2023112101.html</alink>
+        <target></target>
+    </news>
+
+     <news>
+        <kind>info</kind>
+        <date>2023/11/18</date>
+        <contents>11/23(木・祝)「おつけもの慶」コラボイベントについて</contents>
+        <alink>info/info_2023111801.html</alink>
+        <target></target>
+     </news>
+
+     <news>
+        <kind>info</kind>
+        <date>2023/11/17</date>
+        <contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+        <alink>info/info_2023111701.html</alink>
+        <target></target>
+     </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2023/11/12</date>
+        <contents>川崎競輪　CTC杯・創刊75周年記念デイリースポーツ杯（11月18日～11月20日）開催情報</contents>
+        <alink>info/info_2023111201.html</alink>
+        <target></target>
+    </news>
+
+     <news>
+        <kind>info</kind>
+        <date>2023/11/11</date>
+        <contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+        <alink>info/info_2023111101.html</alink>
+        <target></target>
+     </news>
+
+             <news>
+        <kind>info</kind>
+        <date>2023/11/06</date>
+        <contents>【11月18日(土)～、11月24日(金)～】エリア51でバンク内観戦！ 事前抽選受付開始！</contents>
+        <alink>info/info_2023110601.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2023/11/02</date>
+        <contents>川崎競輪　東海道川崎宿起立四百年記念・TEL杯（11月11日～11月13日）開催情報</contents>
+        <alink>info/info_2023110201.html</alink>
+        <target></target>
+    </news>
+
+         <news>
+        <kind>info</kind>
+        <date>2023/11/02</date>
+        <contents>競輪カレンダー２０２４年版のプレゼントについて</contents>
+        <alink>info/info_2023110202.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>event</kind>
+        <date>2023/10/28</date>
+        <contents>10月30日（月）イベント・ファンサービス情報</contents>
+        <alink>event/event_2023102801.html</alink>
+        <target></target>
+    </news>
+
+         <news>
+        <kind>info</kind>
+        <date>2023/10/25</date>
+        <contents>【11月11日(土)～11月13日(月)】エリア51でバンク内観戦！ 事前抽選受付開始！</contents>
+        <alink>info/info_2023102501.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2023/10/18</date>
+        <contents>小田原市営川崎競輪ミッドナイト　競輪アプリはウィンチケット（10月26日～28日）開催情報</contents>
+        <alink>info/info_2023101801.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>event</kind>
+        <date>2023/10/17</date>
+        <contents>10月22日（日）イベント・ファンサービス情報</contents>
+        <alink>event/event_2023101701.html</alink>
+        <target></target>
+    </news>
+
+     <news>
+        <kind>info</kind>
+        <date>2023/10/16</date>
+        <contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+        <alink>info/info_2023101601.html</alink>
+        <target></target>
+     </news>
+
+         <news>
+        <kind>info</kind>
+        <date>2023/10/13</date>
+        <contents>川崎競輪　報知新聞社杯争奪戦（10月17日～10月19日）開催情報</contents>
+        <alink>info/info_2023101301.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>event</kind>
+        <date>2023/10/10</date>
+        <contents>10月15日（日）イベント・ファンサービス情報</contents>
+        <alink>event/event_2023101001.html</alink>
+        <target></target>
+    </news>
+
+     <news>
+        <kind>info</kind>
+        <date>2023/10/09</date>
+        <contents>10月9日「バンク内観戦ツアー」中止について</contents>
+        <alink>info/info_2023100902.html</alink>
+        <target></target>
+    </news>
+
+     <news>
+        <kind>info</kind>
+        <date>2023/10/09</date>
+        <contents>【場所変更】10月9日（月祝）予定の安田大サーカス団長　安田トークショーについて</contents>
+        <alink>info/info_2023100901.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>event</kind>
+        <date>2023/10/08</date>
+        <contents>10月9日（月・祝）縁日・ワークショップ中止のお知らせ</contents>
+        <alink>event/event_2023100803.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>event</kind>
+        <date>2023/10/08</date>
+        <contents>10月9日（月･祝）ステージイベント スケジュール</contents>
+        <alink>event/event_2023100802.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>event</kind>
+        <date>2023/10/08</date>
+        <contents>10月8日（日）ステージイベント スケジュール</contents>
+        <alink>event/event_2023100801.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>event</kind>
+        <date>2023/10/07</date>
+        <contents>10月7日（土）ステージイベント スケジュール</contents>
+        <alink>event/event_2023100701.html</alink>
+        <target></target>
+    </news>
+
+     <news>
+        <kind>info</kind>
+        <date>2023/10/07</date>
+        <contents>バンク紹介動画 ～所属選手に新バンクについて聞いてみた～</contents>
+        <alink>info/info_2023100701.html</alink>
+        <target></target>
+    </news>
+
+     <news>
+        <kind>info</kind>
+        <date>2023/10/06</date>
+        <contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+        <alink>info/info_2023100601.html</alink>
+        <target></target>
+     </news>
+
+     <news>
+        <kind>info</kind>
+        <date>2023/10/03</date>
+        <contents>川崎競輪　バンクリニューアル記念NIPPO杯スポーツニッポン杯争奪戦（10月7日～10月9日）開催情報</contents>
+        <alink>info/info_2023100301.html</alink>
+        <target></target>
+    </news>
+
+     <news>
+        <kind>info</kind>
+        <date>2023/10/02</date>
+        <contents>10/7～9川崎競輪FIナイター開催「バンクリニューアル記念　NIPPO杯　スポーツニッポン杯争奪戦」投票キャンペーン！</contents>
+        <alink>info/info_2023100201.html</alink>
+        <target></target>
+    </news>
+
+     <news>
+        <kind>info</kind>
+        <date>2023/09/29</date>
+        <contents>「地元選手と一緒にバンク内観戦ツアー」の応募について</contents>
+        <alink>info/info_2023092901.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>event</kind>
+        <date>2023/09/27</date>
+        <contents>地元競輪選手チャリティーオークション＆フリーマーケット</contents>
+        <alink>event/event_2023092702.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>event</kind>
+        <date>2023/09/27</date>
+        <contents>10月7日（土）～9日（月祝）イベント・ファンサービス情報</contents>
+        <alink>event/event_2023092701.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>event</kind>
+        <date>2023/09/20</date>
+        <contents>大人と子どもの体験型交通安全教室を開催します。</contents>
+        <alink>event/event_2023091501.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>event</kind>
+        <date>2023/09/18</date>
+        <contents>川崎競輪“再始動”まであと・・・14日祭</contents>
+        <alink>event/event_2023091801.html</alink>
+        <target></target>
+    </news>
+
+     <news>
+        <kind>info</kind>
+        <date>2023/09/17</date>
+        <contents>【川崎仮面】共同通信社杯　GII決勝予想 Youtubeにて配信中！！</contents>
+        <alink>info/info_2023091701.html</alink>
+        <target></target>
+    </news>
+
+     <news>
+        <kind>info</kind>
+        <date>2023/09/15</date>
+        <contents>10月3日（火）第50回 南関東地区プロ自転車競技大会開催についてのお知らせ</contents>
+        <alink>info/info_2023091501.html</alink>
+        <target></target>
+    </news>
+
+     <news>
+        <kind>info</kind>
+        <date>2023/09/13</date>
+        <contents>指定席スタンプカードのスタンプ10個毎の景品が2022年9月以前に戻ります。</contents>
+        <alink>info/info_2023091301.html</alink>
+        <target></target>
+    </news>
+
+     <news>
+        <kind>info</kind>
+        <date>2023/09/09</date>
+        <contents>【川崎仮面】共同通信社杯　GII決勝予想 Youtube配信について</contents>
+        <alink>info/info_2023090901.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>event</kind>
+        <date>2023/09/08</date>
+        <contents>9月17日（日）～18日（月・祝）　イベント・ファンサービス情報</contents>
+        <alink>event/event_2023090801.html</alink>
+        <target></target>
+    </news>
+
+         <news>
+        <kind>event</kind>
+        <date>2023/09/04</date>
+        <contents>9月10日（日）イベント・ファンサービス情報</contents>
+        <alink>event/event_2023090401.html</alink>
+        <target></target>
+    </news>
+
+         <news>
+        <kind>event</kind>
+        <date>2023/08/28</date>
+        <contents>9月3日（日）イベント・ファンサービス情報</contents>
+        <alink>event/event_2023082801.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2023/08/26</date>
+        <contents>8月20日（日）川崎競輪所属選手の地域活動のお知らせ</contents>
+        <alink>info/info_2023082501.html</alink>
+        <target></target>
+    </news>
+
+         <news>
+        <kind>event</kind>
+        <date>2023/08/15</date>
+        <contents>8月19日（土）・20日（日）イベント・ファンサービス情報</contents>
+        <alink>event/event_2023081501.html</alink>
+        <target></target>
+    </news>
+
+     <news>
+        <kind>info</kind>
+        <date>2023/08/11</date>
+        <contents>【川崎仮面】オールスター競輪　GI決勝予想 Youtube配信について</contents>
+        <alink>info/info_2023081101.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2023/08/01</date>
+        <contents>KEIRINグランプリ　２０２３　宿泊付きキャンペーン</contents>
+        <alink>info/info_2023080101.html</alink>
+        <target></target>
+    </news>
+
+        <news>
+        <kind>event</kind>
+        <date>2023/07/28</date>
+        <contents>川崎仮面　競輪予想会のお知らせ（８月６日）</contents>
+        <alink>event/event_2023072801.html</alink>
+        <target></target>
+    </news>
+
+     <news>
+        <kind>event</kind>
+        <date>2023/07/24</date>
+        <contents>8月2日（水）イベント・ファンサービス情報</contents>
+        <alink>event/event_2023072401.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2023/07/23</date>
+        <contents>KKPホームページのメンテナンスについて</contents>
+        <alink>info/info_2023072301.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>event</kind>
+        <date>2023/07/21</date>
+        <contents>川崎仮面　競輪予想会のお知らせ（７月３０日）</contents>
+        <alink>event/event_2023072101.html</alink>
+        <target></target>
+    </news>
+
+            <news>
+        <kind>event</kind>
+        <date>2023/07/14</date>
+        <contents>7月23日（日）イベント・ファンサービス情報</contents>
+        <alink>event/event_2023071401.html</alink>
+        <target></target>
+    </news>
+    
+            <news>
+        <kind>event</kind>
+        <date>2023/07/06</date>
+        <contents>7月15日（土）～17日（月・祝）　イベント・ファンサービス情報</contents>
+        <alink>event/event_2023070601.html</alink>
+        <target></target>
+    </news>
+    
+    <news>
+        <kind>info</kind>
+        <date>2023/07/01</date>
+        <contents>【川崎仮面】サマーナイトフェスティバル　GII決勝予想 Youtube配信について</contents>
+        <alink>info/info_2023070101.html</alink>
+        <target></target>
+    </news>
+
+        <news>
+        <kind>event</kind>
+        <date>2023/06/29</date>
+        <contents>川崎仮面　競輪予想会のお知らせ（７月９日）</contents>
+        <alink>event/event_2023062901.html</alink>
+        <target></target>
+    </news>
+
+        <news>
+        <kind>event</kind>
+        <date>2023/06/25</date>
+        <contents>川崎仮面　競輪予想会のお知らせ（７月２日）</contents>
+        <alink>event/event_2023062501.html</alink>
+        <target></target>
+    </news>
+
+    
+    <news>
+        <kind>info</kind>
+        <date>2023/06/17</date>
+        <contents>【川崎競輪場　所属選手】　地域貢献活動</contents>
+        <alink>info/info_2023061701.html</alink>
+        <target></target>
+    </news>
+    
+    <news>
+        <kind>info</kind>
+        <date>2023/06/16</date>
+        <contents>7月2日(日)高松FIIモーニング追加発売について</contents>
+        <alink>info/info_2023061601.html</alink>
+        <target></target>
+    </news>
+
+        <news>
+        <kind>event</kind>
+        <date>2023/06/12</date>
+        <contents>６月１７（土）、１８日（日）　イベント・ファンサービス情報</contents>
+        <alink>event/event_2023061202.html</alink>
+        <target></target>
+    </news>
+
+
+        <news>
+        <kind>event</kind>
+        <date>2023/06/12</date>
+        <contents>６月１７（土）、１８日（日）川崎競輪場　所属選手イベント</contents>
+        <alink>event/event_2023061201.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2023/06/07</date>
+        <contents>5月28日（日）川崎競輪所属選手の地域活動のお知らせ</contents>
+        <alink>info/info_2023060701.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2023/06/01</date>
+        <contents>川崎仮面「高松宮記念杯競輪　決勝予想」youtube配信について</contents>
+        <alink>info/info_2023060101.html</alink>
+        <target></target>
+    </news>
+
+        <news>
+        <kind>info</kind>
+        <date>2023/05/21</date>
+        <contents>５月２８日（日）和歌山FIIを追加発売します。</contents>
+        <alink>info/info_2023052101.html</alink>
+        <target></target>
+    </news>
+
+        <news>
+        <kind>event</kind>
+        <date>2023/05/12</date>
+        <contents>５月２１日（日）　イベント・ファンサービス情報</contents>
+        <alink>event/event_2023051201.html</alink>
+        <target></target>
+    </news>
+
+
+        <news>
+        <kind>info</kind>
+        <date>2023/05/07</date>
+        <contents>【イベント中止】5月7日(日) 川崎仮面ステージ予想会</contents>
+        <alink>info/info_2023050701.html</alink>
+        <target></target>
+    </news>
+
+        <news>
+        <kind>info</kind>
+        <date>2023/05/06</date>
+        <contents>【川崎仮面】日本選手権GI決勝予想 Youtube配信について</contents>
+        <alink>info/info_2023050601.html</alink>
+        <target></target>
+    </news>
+    
+    <news>
+        <kind>info</kind>
+        <date>2023/05/04</date>
+        <contents>ギャンブル等依存症問題啓発週間における取組みについて</contents>
+        <alink>info/info_2023050401.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2023/05/03</date>
+        <contents>コロナ５類移行に伴う一般席と指定席の席数について</contents>
+        <alink>info/info_2023050301.html</alink>
+        <target></target>
+    </news>
+
+
+        <news>
+        <kind>event</kind>
+        <date>2023/05/02</date>
+        <contents>5月6・7日　イベント・ファンサービス</contents>
+        <alink>event/event_2023050201.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2023/04/28</date>
+        <contents>第66回オールスター競輪＆ガールズケイリンコレクション2023西武園ステージのお知らせ</contents>
+        <alink>info/info_2023042801.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>event</kind>
+        <date>2023/04/27</date>
+        <contents>５月３日（水・祝）イベント・ファンサービス情報</contents>
+        <alink>event/event_2023042701.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2023/04/25</date>
+        <contents>川崎仮面「日本選手権競輪　決勝予想」youtube配信について</contents>
+        <alink>info/info_2023042501.html</alink>
+        <target></target>
+    </news>
+
+            <news>
+        <kind>event</kind>
+        <date>2023/04/21</date>
+        <contents>4月29日（土祝）・30日（日）　イベント・ファンサービス情報</contents>
+        <alink>event/event_2023042101.html</alink>
+        <target></target>
+    </news>
+    
+            <news>
+        <kind>event</kind>
+        <date>2023/04/11</date>
+        <contents>4月16日（日）　イベント・ファンサービス情報</contents>
+        <alink>event/event_2023041101.html</alink>
+        <target></target>
+    </news>
+    
+        <news>
+        <kind>event</kind>
+        <date>2023/04/11</date>
+        <contents>4月13日（木）14日（金）　イベント・ファンサービス情報</contents>
+        <alink>event/event_2023041102.html</alink>
+        <target></target>
+    </news>
+    
+    <news>
+        <kind>event</kind>
+        <date>2023/04/07</date>
+        <contents>小原太樹選手優勝報告会について</contents>
+        <alink>event/event_2023040701.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>event</kind>
+        <date>2023/03/31</date>
+        <contents>４月９日（日）　イベント・ファンサービス情報</contents>
+        <alink>event/event_2023033102.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2023/03/20</date>
+        <contents>【川崎仮面】ウィナーズカップＧII決勝予想 Youtube配信について</contents>
+        <alink>info/info_2023032001.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>event</kind>
+        <date>2023/03/11</date>
+        <contents>３月１９日～２１日　イベント・ファンサービス情報</contents>
+        <alink>event/event_2023031101.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2023/03/08</date>
+        <contents>川崎競輪場内のマスク着用について</contents>
+        <alink>info/info_2023030801.html</alink>
+        <target></target>
+    </news>
+
+
+    <news>
+        <kind>event</kind>
+        <date>2023/03/06</date>
+        <contents>齋藤雄行選手トークショーについて</contents>
+        <alink>event/event_2023030601.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2023/03/03</date>
+        <contents>【川崎競輪場】第３駐車場閉鎖のお知らせ</contents>
+        <alink>info/info_2023030301.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2023/02/26</date>
+        <contents>川崎仮面「全日本選抜競輪Ｇ１決勝予想」youtube配信について</contents>
+        <alink>info/info_2023022601.html</alink>
+        <target></target>
+    </news>
+
+    
+    <news>
+        <kind>event</kind>
+        <date>2023/02/22</date>
+        <contents>２月２５、２６日　イベント・ファンサービス情報</contents>
+        <alink>event/event_2023022202.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2023/02/21</date>
+        <contents>2月18日（土）川崎競輪所属選手の地域活動のお知らせ</contents>
+        <alink>info/info_2023022101.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2023/02/18</date>
+        <contents>3月1日（水）川崎競輪場行きバス乗り場変更のお知らせ</contents>
+        <alink>info/info_2023021701.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>event</kind>
+        <date>2023/02/17</date>
+        <contents>２月２３日（木・祝）　イベント・ファンサービス情報</contents>
+        <alink>event/event_2023021701.html</alink>
+        <target></target>
+    </news>
+
+
+    <news>
+        <kind>event</kind>
+        <date>2023/02/15</date>
+        <contents>２月１８、１９日　イベント・ファンサービス情報</contents>
+        <alink>event/event_2023021501.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2023/02/15</date>
+        <contents>2月20日（月）21日（火）発売と払戻お休みのお知らせ</contents>
+        <alink>info/info_2023021501.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>event</kind>
+        <date>2023/02/08</date>
+        <contents>２月１２日　イベント・ファンサービス情報</contents>
+        <alink>event/event_2023020801.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>event</kind>
+        <date>2023/02/02</date>
+        <contents>２月５日　イベント・ファンサービス情報</contents>
+        <alink>event/event_2023020201.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>event</kind>
+        <date>2023/01/26</date>
+        <contents>１月２８日　イベント・ファンサービス情報</contents>
+        <alink>event/event_2023012601.html</alink>
+        <target></target>
+    </news>
+    
+    
+    <news>
+        <kind>event</kind>
+        <date>2023/01/25</date>
+        <contents>静岡記念　川崎場外イベント情報（２月９日～１２日）</contents>
+        <alink>event/event_2023012501.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2023/01/25</date>
+        <contents>川崎競輪場テレホンサービス終了のお知らせ</contents>
+        <alink>info/info_2023012502.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2023/01/25</date>
+        <contents>川崎場外　別府F1（3日目）開催中止順延のお知らせ</contents>
+        <alink>info/info_2023012501.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>event</kind>
+        <date>2023/01/20</date>
+        <contents>１月２２日　イベント・ファンサービス情報</contents>
+        <alink>event/event_2023012001.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>event</kind>
+        <date>2023/01/18</date>
+        <contents>佐藤水菜選手トークショーについて</contents>
+        <alink>event/event_2023011801.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>event</kind>
+        <date>2023/01/11</date>
+        <contents>１月１５日（日）　イベント・ファンサービス情報</contents>
+        <alink>event/event_2023011101.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>event</kind>
+        <date>2023/01/05</date>
+        <contents>郡司浩平選手トークショーについて</contents>
+        <alink>event/event_2023010501.html</alink>
+        <target></target>
+    </news>
+
+         <news>
+        <kind>event</kind>
+        <date>2022/12/27</date>
+        <contents>１月４日（水）・７日（土）　イベント・ファンサービス情報</contents>
+        <alink>event/event_2022122701.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/12/27</date>
+        <contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+        <alink>info/info_2022122701.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/12/24</date>
+        <contents>川崎仮面の『ＫＥＩＲＩＮグランプリ2022』GP予想解説を配信！！</contents>
+        <alink>info/info_2022122401.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/12/23</date>
+        <contents>「指定席スタンプカード」サービスについて</contents>
+        <alink>info/info_2022122301.html</alink>
+        <target></target>
+    </news>
+
+         <news>
+        <kind>event</kind>
+        <date>2022/12/22</date>
+        <contents>平塚競輪　KEIRIN　グランプリ　川崎場外 イベント情報（１２月２８日～１２月３０日）</contents>
+        <alink>event/event_2022122201.html</alink>
+        <target></target>
+    </news>
+
+         <news>
+        <kind>event</kind>
+        <date>2022/12/21</date>
+        <contents>１２月２５日　イベント・ファンサービス情報</contents>
+        <alink>event/event_2022122101.html</alink>
+        <target></target>
+    </news>
+
+         <news>
+        <kind>event</kind>
+        <date>2022/12/15</date>
+        <contents>１２月１７日・１８日　イベント・ファンサービス情報</contents>
+        <alink>event/event_2022121501.html</alink>
+        <target></target>
+    </news>
+
+         <news>
+        <kind>event</kind>
+        <date>2022/12/15</date>
+        <contents>「２０２２ＧＯ！ＧＯ！郡司浩平選手KEIRINグランプリ応援女子会」参加者枠追加のお知らせ！</contents>
+        <alink>event/event_2022113001.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/12/14</date>
+        <contents>川崎競輪所属選手の地域活動などについて</contents>
+        <alink>info/info_2022121401.html</alink>
+        <target></target>
+    </news>
+
+         <news>
+        <kind>event</kind>
+        <date>2022/12/12</date>
+        <contents>１２月１８日　イベント・ファンサービス情報</contents>
+        <alink>event/event_2022121201.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/12/6</date>
+        <contents>12/12(月)「川崎競馬場」にて「川崎競輪場」協賛レース実施のお知らせ</contents>
+        <alink>info/info_2022120601.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/12/05</date>
+        <contents>川崎競輪場の楽天シニアサービス終了のお知らせ</contents>
+        <alink>info/info_2022120501.html</alink>
+        <target></target>
+    </news>
+
+         <news>
+        <kind>info</kind>
+        <date>2022/11/27</date>
+        <contents>「川崎仮面」競輪祭G１決勝予想youtube配信について</contents>
+        <alink>info/info_2022112701.html</alink>
+        <target></target>
+    </news>
+
+         <news>
+        <kind>info</kind>
+        <date>2022/11/24</date>
+        <contents>１２月３０日（金）「ＫＥＩＲＩＮグランプリ２０２２」発売等に関するお知らせ</contents>
+        <alink>info/info_2022112401.html</alink>
+        <target></target>
+    </news>
+    
+         <news>
+        <kind>event</kind>
+        <date>2022/11/22</date>
+        <contents>１１月２６日２７日　イベント・ファンサービス情報</contents>
+        <alink>event/event_2022112201.html</alink>
+        <target></target>
+    </news>
+
+         <news>
+        <kind>info</kind>
+        <date>2022/11/22</date>
+        <contents>12/3(土)防災イベント開催！</contents>
+        <alink>info/info_2022112201.html</alink>
+        <target></target>
+    </news>
+
+         <news>
+        <kind>info</kind>
+        <date>2022/11/18</date>
+        <contents>川崎競輪では年末年始も車券が購入できます！</contents>
+        <alink>info/info_2022111801.html</alink>
+        <target></target>
+    </news>
+
+         <news>
+        <kind>event</kind>
+        <date>2022/11/14</date>
+        <contents>１１月２０日　イベント・ファンサービス情報</contents>
+        <alink>event/event_2022111401.html</alink>
+        <target></target>
+    </news>
+
+         <news>
+        <kind>event</kind>
+        <date>2022/11/10</date>
+        <contents>１１月１３日　イベント・ファンサービス情報</contents>
+        <alink>event/event_2022111001.html</alink>
+        <target></target>
+    </news>
+
+         <news>
+        <kind>info</kind>
+        <date>2022/11/10</date>
+        <contents>第６４回競輪祭（GI）全場キャンペーンについて</contents>
+        <alink>info/info_2022111001.html</alink>
+        <target></target>
+    </news>
+
+         <news>
+        <kind>info</kind>
+        <date>2022/11/09</date>
+        <contents>福田選手＆青野選手優勝報告会</contents>
+        <alink>info/info_2022110901.html</alink>
+        <target></target>
+    </news>
+
+         <news>
+        <kind>info</kind>
+        <date>2022/10/26</date>
+        <contents>「かわさき競輪　選手交流ファン感謝祭」フォトスライド完成！</contents>
+        <alink>info/info_2022102601.html</alink>
+        <target></target>
+    </news>
+
+         <news>
+        <kind>info</kind>
+        <date>2022/10/25</date>
+        <contents>競輪カレンダー２０２３年版のプレゼントについて</contents>
+        <alink>info/info_2022102501.html</alink>
+        <target></target>
+    </news>
+
+         <news>
+        <kind>info</kind>
+        <date>2022/10/20</date>
+        <contents>10月20日（木）川崎競輪所属選手の地域活動のお知らせ</contents>
+        <alink>info/info_2022102001.html</alink>
+        <target></target>
+    </news>
+
+         <news>
+        <kind>event</kind>
+        <date>2022/10/17</date>
+        <contents>１０月２２日・２３日　イベント・ファンサービス情報</contents>
+        <alink>event/event_2022101701.html</alink>
+        <target></target>
+    </news>
+
+         <news>
+        <kind>info</kind>
+        <date>2022/10/13</date>
+        <contents>10月13日（木）川崎競輪所属選手の地域活動のお知らせ</contents>
+        <alink>info/info_2022101301.html</alink>
+        <target></target>
+    </news>
+
+         <news>
+        <kind>event</kind>
+        <date>2022/10/09</date>
+        <contents>ストリートカルチャーイベント「WAH GWAANカワサキSTCULFES2022」開催！</contents>
+        <alink>event/event_2022100801.html</alink>
+        <target></target>
+    </news>
+
+         <news>
+        <kind>event</kind>
+        <date>2022/10/03</date>
+        <contents>１０月１０日　イベント・ファンサービス情報</contents>
+        <alink>event/event_2022100301.html</alink>
+        <target></target>
+    </news>
+
+         <news>
+        <kind>info</kind>
+        <date>2022/10/03</date>
+        <contents>10月6日（木）発売と払戻お休みのお知らせ</contents>
+        <alink>info/info_2022100301.html</alink>
+        <target></target>
+    </news>
+
+         <news>
+        <kind>info</kind>
+        <date>2022/09/28</date>
+        <contents>郡司浩平選手「共同通信社杯(ＧII)」優勝報告会について</contents>
+        <alink>info/info_2022092802.html</alink>
+        <target></target>
+    </news>
+
+         <news>
+        <kind>info</kind>
+        <date>2022/09/28</date>
+        <contents>川崎競輪場で最大4場併売がスタート！</contents>
+        <alink>info/info_2022092801.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/09/19</date>
+        <contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+        <alink>info/info_20220901901.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/09/16</date>
+        <contents>９月２１日（水）郡司浩平選手・佐藤水菜選手　番組出演リスト</contents>
+        <alink>info/info_2022091601.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/09/14</date>
+        <contents>9/20～22川崎競輪FIN開催「富士通フロンテックカップ ヒートアップとどろき大会杯 報知新聞社杯争奪戦」投票キャンペーン！</contents>
+        <alink>info/info_2022091402.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/09/14</date>
+        <contents>川崎競輪　2022年9月富士通フロンテックカップ　ヒートアップとどろき大会杯 報知新聞社杯争奪戦　FIナイター（9月20日～9月22日）開催情報</contents>
+        <alink>info/info_2022091401.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>event</kind>
+        <date>2022/09/12</date>
+        <contents>かわさき競輪場　選手交流ファン感謝祭</contents>
+        <alink>event/event_2022091201.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/09/05</date>
+        <contents>10月29日（土）～11月9日（水）は発売払戻お休みについて</contents>
+        <alink>info/info_2022090501.html</alink>
+        <target></target>
+    </news>
+
+       <news>
+        <kind>info</kind>
+        <date>2022/09/03</date>
+        <contents>川崎競輪FIIミッドナイト開催　ウィンチケミッドナイト競輪（9月9日～11日）開催情報</contents>
+        <alink>info/info_2022090201.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/09/03</date>
+        <contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+        <alink>info/info_2022090301.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/09/03</date>
+        <contents>9/9～11川崎競輪FII MN開催「ウィンチケミッドナイト競輪」投票キャンペーン！</contents>
+        <alink>info/info_2022090202.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/09/02</date>
+        <contents>9月6日(火)の「大垣F1(初日)場外」追加発売について</contents>
+        <alink>info/info_2022090203.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/09/01</date>
+        <contents>川崎競輪　おつけもの慶カップ スピードチャンネル・スカパー杯　東京スポーツ杯争奪戦　FIナイター（9月4日～9月6日）開催情報</contents>
+        <alink>info/info_2022090101.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>event</kind>
+        <date>2022/08/31</date>
+        <contents>9月21日『佐藤水菜選手 ガールズドリームレース優勝報告会＆トークショー』を開催！</contents>
+        <alink>event/event_2022083101.html</alink>
+        <target></target>
+    </news>
+
+         <news>
+        <kind>info</kind>
+        <date>2022/08/30</date>
+        <contents>9/4～6川崎競輪FI 夜開催「おつけもの慶カップ スピードチャンネル・スカパー杯　東京スポーツ杯争奪戦」投票キャンペーン！</contents>
+        <alink>info/info_2022083001.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>event</kind>
+        <date>2022/08/25</date>
+        <contents>８月２７日・２８日　イベント・ファンサービス情報</contents>
+        <alink>event/event_2022082501.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>event</kind>
+        <date>2022/08/17</date>
+        <contents>８月２０日・２１日　イベント・ファンサービス情報</contents>
+        <alink>event/event_2022081701.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/08/13</date>
+        <contents>オールスター競輪ナイターGI（西武園５日目）中止順延後の開催日程一部変更のお知らせ</contents>
+        <alink>info/info_2022081302.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/08/13</date>
+        <contents>本日のオールスター競輪Ｇ１（西武園５日目）の中止順延のお知らせ</contents>
+        <alink>info/info_2022081301.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/08/08</date>
+        <contents>第49回南関東地区プロ自転車競技大会開催中止について</contents>
+        <alink>info/info_2022080801.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/08/05</date>
+        <contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+        <alink>info/info_2022080501.html</alink>
+        <target/>
+    </news>
+
+         <news>
+        <kind>info</kind>
+        <date>2022/08/02</date>
+        <contents>8/6～8川崎競輪FI昼開催「けいりんバケーションCUP・神奈川新聞社杯争奪戦」投票キャンペーン！</contents>
+        <alink>info/info_2022080102.html</alink>
+        <target></target>
+    </news>
+
+         <news>
+        <kind>info</kind>
+        <date>2022/08/02</date>
+        <contents>川崎競輪　けいりんバケーションCUP・神奈川新聞社杯争奪戦（8月6日～8月8日）開催情報</contents>
+        <alink>info/info_2022080101.html</alink>
+        <target></target>
+    </news>
+<!--
+         <news>
+        <kind>info</kind>
+        <date>2022/07/31</date>
+        <contents>川崎競輪場　歴代優勝者情報を更新しました。</contents>
+        <alink>race/kawasaki_winner.html</alink>
+        <target></target>
+    </news>
+-->
+    <!--
+         <news>
+        <kind>info</kind>
+        <date>2022/07/23</date>
+        <contents>川崎競輪場　歴代優勝者情報を更新しました。</contents>
+        <alink>race/kawasaki_winner.html</alink>
+        <target></target>
+    </news>
+-->
+    <news>
+        <kind>info</kind>
+        <date>2022/07/23</date>
+        <contents>小田原市営川崎競輪ＦIIミッドナイトCTC杯（7月28日～30日）開催情報</contents>
+        <alink>info/info_2022072301.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/07/20</date>
+        <contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+        <alink>info/info_2022072001.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/07/19</date>
+        <contents>川崎競輪　サテライト横浜カップ・東京中日スポーツ杯争奪戦　FIナイター（7月21日～7月23日）開催情報</contents>
+        <alink>info/info_2022071801.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/07/19</date>
+        <contents>BMX＆スケートボードパーク　KAWASAKI KEIRIN PARK　7月30日オープンのお知らせ</contents>
+        <alink>info/info_2022071901.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/07/16</date>
+        <contents>7/21～23川崎競輪FI ナイター開催「サテライト横浜カップ・東京中日スポーツ杯争奪戦」投票キャンペーン！</contents>
+        <alink>info/info_2022071501.html</alink>
+        <target/>
+    </news>
+<!--
+     <news>
+        <kind>info</kind>
+        <date>2022/07/16</date>
+        <contents>川崎競輪場　歴代優勝者情報を更新しました。</contents>
+        <alink>race/kawasaki_winner.html</alink>
+        <target></target>
+    </news>
+-->
+    <news>
+        <kind>event</kind>
+        <date>2022/07/15</date>
+        <contents>７月１６日・１７日・１８日　イベント・ファンサービス情報</contents>
+        <alink>event/event_2022071501.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/07/13</date>
+        <contents>7月8日（金）からの川崎仮面『YouTubeチャンネル』利用につきまして</contents>
+        <alink>info/info_2022071301.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/07/09</date>
+        <contents>7月8日（金）からの川崎仮面『YouTubeページ』利用につきまして。</contents>
+        <alink>info/info_2022070901.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/07/07</date>
+        <contents>7/13～15川崎競輪FII MN開催「ウィンチケミッドナイト競輪」投票キャンペーン！</contents>
+        <alink>info/info_2022070502.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/07/07</date>
+        <contents>川崎競輪FIIミッドナイト開催　ウィンチケミッドナイト競輪（7月13～15日）開催情報</contents>
+        <alink>info/info_2022070501.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/07/01</date>
+        <contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+        <alink>info/info_2022070101.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/06/25</date>
+        <contents>川崎競輪　川崎区制５０周年記念レース・みんなの競輪杯 FIIナイター（7月2日～7月4日）開催情報</contents>
+        <alink>info/info_2022062502.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/06/25</date>
+        <contents>7/2～4川崎競輪FII N開催「川崎区制５０周年記念レース・みんなの競輪杯」投票キャンペーン！</contents>
+        <alink>info/info_2022062501.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/06/15</date>
+        <contents>川崎競輪FIIミッドナイト開催　ウィンチケミッドナイト競輪（6月19～21日）開催情報</contents>
+        <alink>info/info_2022061501.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/06/15</date>
+        <contents>6/19～21川崎競輪FII MN開催「ウィンチケミッドナイト競輪」投票キャンペーン！</contents>
+        <alink>info/info_2022061502.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/06/13</date>
+        <contents>7月1日（金）からの指定席運用についての変更</contents>
+        <alink>info/info_2022061302.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/06/13</date>
+        <contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+        <alink>info/info_2022061301.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>event</kind>
+        <date>2022/06/12</date>
+        <contents>６月１８日・１９日　イベント・ファンサービス情報</contents>
+        <alink>event/event_2022061201.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/06/11</date>
+        <contents>川崎競輪　CTC杯・デイリースポーツ杯争奪戦FI（6月14日～6月16日）開催情報</contents>
+        <alink>info/info_2022061101.html</alink>
+        <target/>
+    </news>
+
+
+    <news>
+        <kind>info</kind>
+        <date>2022/06/10</date>
+        <contents>6/14～16川崎競輪FIナイター開催「CTC杯・デイリースポーツ杯争奪戦」投票キャンペーン！</contents>
+        <alink>info/info_2022061001.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/06/05</date>
+        <contents>川崎仮面の「俺にまかせろ！」前日解説</contents>
+        <alink>info/info_2022060501.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/06/02</date>
+        <contents>川崎競輪　オッズパーク杯 FIIナイター（6月6日～6月8日）開催情報</contents>
+        <alink>info/info_2022060201.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/06/02</date>
+        <contents>6/6～8川崎競輪FIIナイター開催「オッズパーク杯」投票キャンペーン！</contents>
+        <alink>info/info_2022060101.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/05/31</date>
+        <contents>川崎仮面の「俺にまかせろ！」前日解説</contents>
+        <alink>info/info_2022053101.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/05/28</date>
+        <contents>川崎競輪　ジャパンカップ×ＨＰＣＪＣ おつけもの慶カップ　スポーツニッポン杯争奪戦FI（6月1日～6月3日）開催情報</contents>
+        <alink>info/info_2022052702.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/05/28</date>
+        <contents>6/1～3川崎競輪FI昼開催「ジャパンカップ×ＨＰＣＪＣ　おつけもの慶カップ　スポーツニッポン杯争奪戦」投票キャンペーン！</contents>
+        <alink>info/info_2022052701.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/05/25</date>
+        <contents>メインスタンドＳＡ席の場外無料券について</contents>
+        <alink>info/info_2022052501.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/05/24</date>
+        <contents>川崎仮面の「俺にまかせろ！」前日解説</contents>
+        <alink>info/info_2022052401.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/05/20</date>
+        <contents>5/25～27川崎競輪FIナイター「サンケイスポーツ新聞社杯争奪戦」投票キャンペーン！</contents>
+        <alink>info/info_2022052002.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/05/20</date>
+        <contents>川崎競輪　サンケイスポーツ新聞社杯争奪戦FIナイター（5月25日～5月27日）開催情報</contents>
+        <alink>info/info_2022052001.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/05/18</date>
+        <contents>川崎仮面の「俺にまかせろ！」前日解説</contents>
+        <alink>info/info_2022051801.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>event</kind>
+        <date>2022/05/16</date>
+        <contents>５月２１日・２２日　イベント・ファンサービス情報</contents>
+        <alink>event/event_2022051601.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/05/16</date>
+        <contents>川崎競輪　Kドリームス杯 FIIナイター（5月18日～5月20日）開催情報</contents>
+        <alink>info/info_2022051601.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/05/15</date>
+        <contents>5/28(土)～29(日)「おつけもの慶」コラボキャンペーンについて</contents>
+        <alink>info/info_2022051501.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/05/14</date>
+        <contents>5/18～20川崎競輪FIIナイター「Ｋドリームス杯」投票キャンペーン！</contents>
+        <alink>info/info_2022051402.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>event</kind>
+        <date>2022/05/12</date>
+        <contents>５月１４日　イベント・ファンサービス情報</contents>
+        <alink>event/event_2022051201.html</alink>
+        <target/>
+    </news>
+
+
+    
+    <news>
+        <kind>event</kind>
+        <date>2022/05/02</date>
+        <contents>５月８日　イベント・ファンサービス情報</contents>
+        <alink>event/event_2022050201.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>event</kind>
+        <date>2022/05/02</date>
+        <contents>５月７日　イベント・ファンサービス情報</contents>
+        <alink>event/event_2022050202.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/04/29</date>
+        <contents>川崎仮面の公式Youtubeにて『【第２０回】質問コーナー』を配信！</contents>
+        <alink>info/info_2022042901.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/04/28</date>
+        <contents>オールスター競輪及びガールズケイリンコレクション2022のお知らせ</contents>
+        <alink>info/info_2022042801.html</alink>
+        <target/>
+    </news>
+<!--
+    <news>
+        <kind>info</kind>
+        <date>2022/04/27</date>
+        <contents>５月７日（土）『川崎仮面の俺にまかせろ！』日本選手権（ＧI）予想会</contents>
+        <alink>info/info_2022042701.html</alink>
+        <target/>
+    </news>
+-->
+    <news>
+        <kind>info</kind>
+        <date>2022/04/26</date>
+        <contents>5/7～9川崎競輪FIIミッドナイト「ウィンチケミッドナイト競輪」投票キャンペーン！</contents>
+        <alink>info/info_2022042602.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/04/26</date>
+        <contents>川崎競輪FIIミッドナイト開催ウィンチケミッドナイト競輪（5月7～9日）開催情報</contents>
+        <alink>info/info_2022042601.html</alink>
+        <target/>
+    </news>
+
+
+    <news>
+        <kind>info</kind>
+        <date>2022/04/13</date>
+        <contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+        <alink>info/info_2022041301.html</alink>
+        <target/>
+    </news>
+
+
+    <news>
+        <kind>info</kind>
+        <date>2022/04/08</date>
+        <contents>川崎仮面の公式Youtubeにて『【第１９回】質問コーナー』を配信！</contents>
+        <alink>info/info_2022040801.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>event</kind>
+        <date>2022/04/06</date>
+        <contents>４月１０日　イベント・ファンサービス情報</contents>
+        <alink>event/event_2022040601.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/04/05</date>
+        <contents>桜花賞特設サイトオープンのお知らせ</contents>
+        <alink>info/info_2022040501.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/04/05</date>
+        <contents>川崎けいりんホームページをリニューアルしました</contents>
+        <alink>info/info_2022040101.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/03/30</date>
+        <contents>川崎競輪メールマガジンサービス終了のお知らせ</contents>
+        <alink>info/info_2022033001.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/03/29</date>
+        <contents>【事前告知】川崎競輪ホームページの全面リニューアルについて</contents>
+        <alink>info/info_2022032902.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/03/29</date>
+        <contents>小田原市営川崎競輪FIIミッドナイト競輪アプリはウィンチケット（4月1～3日）開催情報</contents>
+        <alink>info/info_2022032901.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/03/26</date>
+        <contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+        <alink>info/info_2022032601.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/03/24</date>
+        <contents>令和４年4月5日(火)､6日(水)の払戻業務休止について</contents>
+        <alink>info/info_2022032403.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/03/24</date>
+        <contents>川崎競輪　オッズパーク杯・報知新聞社杯争奪戦 FⅠナイター（3月27日～3月29日）開催情報</contents>
+        <alink>info/info_2022032401.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/03/24</date>
+        <contents>3/27～29川崎FIナイター「オッズパーク杯・報知新聞社杯争奪戦」投票キャンペーン！</contents>
+        <alink>info/info_2022032402.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/03/18</date>
+        <contents>川崎仮面の公式Youtubeにて『【第18回】質問コーナー』を配信！</contents>
+        <alink>info/info_2022031801.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/03/16</date>
+        <contents>3/20(日) 18:30頃～ 川崎仮面の『ウィナーズカップ』GII決勝前日解説配信予定！</contents>
+        <alink>info/info_2022031601.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>event</kind>
+        <date>2022/03/14</date>
+        <contents>3月19日・20日・21日　イベント・ファンサービス情報</contents>
+        <alink>event/event_2022031401.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/03/11</date>
+        <contents>川崎仮面の公式Youtubeにて『【第17回】質問コーナー』を配信！</contents>
+        <alink>info/info_2022031101.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/03/11</date>
+        <contents>3/14～3/16川崎FIIミッドナイト「WINTICKET杯」投票キャンペーン！</contents>
+        <alink>info/info_2022030901.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/03/10</date>
+        <contents>川崎競輪 ミッドナイト開催 WINTICKET杯（3月14日～3月16日）開催情報</contents>
+        <alink>info/info_2022031001.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/03/04</date>
+        <contents>川崎仮面の公式Youtubeにて『【第16回】質問コーナー』を配信！</contents>
+        <alink>info/info_2022030401.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/02/27</date>
+        <contents>川崎競輪FIナイター1～3日目(2月27日～3月1日)の開催中止・打ち切りについて</contents>
+        <alink>info/info_2022022701.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/02/26</date>
+        <contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+        <alink>info/info_2022022601.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/02/23</date>
+        <contents>川崎競輪　ＭＯＴＯＪＡＰＡＮ杯・デイリースポーツ杯争奪戦 FIナイター（2月27日～3月1日）開催情報</contents>
+        <alink>info/info_2022022301.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/02/22</date>
+        <contents>2/27～3/1川崎FIナイター「MOTOJAPAN杯・デイリースポーツ杯争奪戦」投票キャンペーン！</contents>
+        <alink>info/info_2022022201.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/02/18</date>
+        <contents>2/22(火) 18:00頃～ 川崎仮面の『全日本選抜競輪』ＧI決勝前日解説配信予定！</contents>
+        <alink>info/info_2022021801.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>event</kind>
+        <date>2022/02/15</date>
+        <contents>２月１９日・２０日　イベント・ファンサービス情報</contents>
+        <alink>event/event_2022021501.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/02/11</date>
+        <contents>川崎仮面の公式Youtubeにて『【第１５回】質問コーナー』を配信！</contents>
+        <alink>info/info_2022021101.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/02/08</date>
+        <contents>高知F1（3日目）開催中止打ち切りのお知らせ</contents>
+        <alink>info/info_2022020801.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/02/05</date>
+        <contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+        <alink>info/info_2022020501.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/02/02</date>
+        <contents>川崎競輪　シュアラスター杯・神奈川新聞社杯争奪戦 FIIナイター（2月6日～2月8日）開催情報</contents>
+        <alink>info/info_2022020102.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/02/02</date>
+        <contents>2/6～2/8川崎FIIナイター「シュアラスター杯・神奈川新聞社杯争奪戦」投票キャンペーン！</contents>
+        <alink>info/info_2022020101.html</alink>
+        <target/>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/01/28</date>
+        <contents>川崎競輪FIIナイター３日目(1月28日)の開催中止・打ち切りについて</contents>
+        <alink>info/info_2022012801.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/01/25</date>
+        <contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+        <alink>info/info_2022012501.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/01/21</date>
+        <contents>川崎仮面の公式Youtubeにて『【第１４回】質問コーナー』を配信！</contents>
+        <alink>info/info_2022012102.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/01/21</date>
+        <contents>川崎競輪　富士通フロンテックカップ・Ｋドリームス杯 FIIナイター（1月26日～1月28日）開催情報</contents>
+        <alink>info/info_2022012101.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/01/21</date>
+        <contents>1/26～1/28 川崎FIIナイター「富士通フロンテックカップ・Kドリームス杯」投票キャンペーン！</contents>
+        <alink>info/info_2022012001.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/01/10</date>
+        <contents>川崎競輪ミッドナイト開催WINTICKET杯（1月17～1月19日）開催情報</contents>
+        <alink>info/info_2022011001.html</alink>
+        <target></target>
+    </news>
+
+<!---->
+    <news>
+        <kind>event</kind>
+        <date>2022/01/18</date>
+        <contents>１月２２日・２３日　イベント・ファンサービス情報</contents>
+        <alink>event/event_2022011801.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/01/14</date>
+        <contents>川崎仮面の公式Youtubeにて『【第１３回】質問コーナー』を配信！</contents>
+        <alink>info/info_2022011401.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/01/12</date>
+        <contents>令和4年1月31日(月)払戻業務休止について</contents>
+        <alink>info/info_2022011201.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/01/07</date>
+        <contents>川崎仮面の公式Youtubeにて『【第１２回】質問コーナー』を配信！</contents>
+        <alink>info/info_2022010702.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2022/01/07</date>
+        <contents>1/17～1/19 川崎FIIミッドナイト「WINTICKET杯」投票キャンペーン！</contents>
+        <alink>info/info_2022010601.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>event</kind>
+        <date>2021/12/29</date>
+        <contents>1/4（火）立川記念（GIII）場外発売　お正月イベントについて</contents>
+        <alink>event/event_2021122901.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2021/12/25</date>
+        <contents>川崎仮面の『ＫＥＩＲＩＮグランプリ』ＧＰ予想解説を配信！！</contents>
+        <alink>info/info_2021122501.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>event</kind>
+        <date>2021/12/23</date>
+        <contents>12/28～30 GPシリーズイベント ～グランプリはお得な川崎で買おう！～</contents>
+        <alink>event/event_2021122301.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2021/12/21</date>
+        <contents>１２月２３日～２５日　松戸競輪ＦIナイターの発売について</contents>
+        <alink>info/info_2021122101.html</alink>
+        <target></target>
+    </news>
+
+
+    <news>
+        <kind>info</kind>
+        <date>2021/12/19</date>
+        <contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+        <alink>info/info_2021121901.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2021/12/17</date>
+        <contents>川崎仮面の公式Youtubeにて『【第１１回】質問コーナー』を配信!</contents>
+        <alink>info/info_2021121701.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2021/12/14</date>
+        <contents>年末年始の払戻業務について</contents>
+        <alink>info/info_2021121401.html</alink>
+        <target></target>
+    </news>
+    <news>
+        <kind>info</kind>
+        <date>2021/12/13</date>
+        <contents>川崎競輪　みんなの競輪杯・東京中日スポーツ杯争奪戦 FⅡナイター（12月20日～12月22日）イベント・開催情報</contents>
+        <alink>info/info_2021121301.html</alink>
+        <target></target>
+    </news>
+    <news>
+        <kind>info</kind>
+        <date>2021/12/11</date>
+        <contents>12/20～12/22 川崎FIIナイター「みんなの競輪杯・東京中日スポーツ杯争奪戦」投票キャンペーン！</contents>
+        <alink>info/info_2021121301.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2021/12/10</date>
+        <contents>川崎仮面の公式Youtubeにて『【第１０回】質問コーナー』を配信!</contents>
+        <alink>info/info_2021121001.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>event</kind>
+        <date>2021/12/10</date>
+        <contents>１２月１８日・１９日　イベント・ファンサービス情報</contents>
+        <alink>event/event_2021121101.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2021/12/09</date>
+        <contents>12/17(金)川崎競馬　第10R『川崎競輪 郡司浩平KEIRIN GP杯』開催について</contents>
+        <alink>info/info_2021120901.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2021/12/07</date>
+        <contents>【ご注意】「ＫＥＩＲＩＮグランプリ２０２１」の前日前売発売に関するお知らせ</contents>
+        <alink>info/info_2021120701.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2021/12/03</date>
+        <contents>川崎仮面の公式Youtubeにて『【第９回】質問コーナー』を配信!</contents>
+        <alink>info/info_2021120301.html</alink>
+        <target></target>
+    </news>
+
+
+    <news>
+        <kind>info</kind>
+        <date>2021/12/01</date>
+        <contents>１２月３０日（木）「ＫＥＩＲＩＮグランプリ２０２１」発売等に関するお知らせ</contents>
+        <alink>info/info_2021120102.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2021/12/01</date>
+        <contents>１２月１２日～１４日　豊橋競輪ＦＩナイターの発売について</contents>
+        <alink>info/info_2021120101.html</alink>
+        <target></target>
+    </news>
+
+<news>
+        <kind>info</kind>
+        <date>2021/11/29</date>
+        <contents>ホームページナビ使い方ガイド</contents>
+        <alink>info/info_2021112901.html</alink>
+        <target></target>
+</news>
+
+    <news>
+        <kind>info</kind>
+        <date>2021/11/26</date>
+        <contents>川崎仮面の公式Youtubeにて『【第８回】質問コーナー』を配信！</contents>
+        <alink>info/info_2021112601.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2021/11/19</date>
+        <contents>川崎仮面の公式Youtubeにて『【第７回】質問コーナー』を配信！</contents>
+        <alink>info/info_2021111901.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2021/11/16</date>
+        <contents>11/22(月) 22:00頃～ 川崎仮面の『朝日新聞社杯 競輪祭』ＧⅠ決勝前日解説配信予定！</contents>
+        <alink>info/info_2021111601.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>event</kind>
+        <date>2021/11/15</date>
+        <contents>11/20（土）、11/21（日）、11/23（火祝）『九ちゃんパーク』開催！！</contents>
+        <alink>event/event_2021111501.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2021/11/12</date>
+        <contents>川崎仮面の公式Youtubeにて『【第６回】質問コーナー』を配信しました！</contents>
+        <alink>info/info_2021111201.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2021/11/08</date>
+        <contents>新５００円硬貨のお取り扱いについて</contents>
+        <alink>info/info_2021110801.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2021/10/29</date>
+        <contents>川崎仮面の公式Youtubeにて『【第5回】質問コーナー』を配信しました！</contents>
+        <alink>info/info_2021102901.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2021/10/28</date>
+        <contents>「第48回南関東地区プロ自転車競技大会」が開催されました！</contents>
+        <alink>info/info_2021102802.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2021/10/28</date>
+        <contents>各種サービス券の期限延長対応について</contents>
+        <alink>info/info_2021102801.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2021/10/21</date>
+        <contents>競輪カレンダー２０２２年版のプレゼントについて</contents>
+        <alink>info/info_2021102101.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2021/10/19</date>
+        <contents>南関東地区プロ自転車競技大会開催についてのお知らせ</contents>
+        <alink>info/info_2021101902.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2021/10/19</date>
+        <contents>10/23(土) 18:00頃～ 川崎仮面の寛仁親王牌GI決勝前日解説配信！</contents>
+        <alink>info/info_2021101901.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2021/10/16</date>
+        <contents>令和3年11月10日（水）の払戻業務休止について</contents>
+        <alink>info/info_2021101601.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2021/10/10</date>
+        <contents>川崎仮面の「俺にまかせろ！」解説配信のお知らせ</contents>
+        <alink>info/info_2021101001.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2021/10/09</date>
+        <contents>川崎競輪　ＣＴＣ杯・東京スポーツ杯争奪戦 FIナイター（10月11日～10月13日）開催情報</contents>
+        <alink>info/info_2021100803.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2021/10/09</date>
+        <contents>10/11～10/13 川崎FIナイター「ＣＴＣ杯・東京スポーツ杯争奪戦」投票キャンペーン！</contents>
+        <alink>info/info_2021100802.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2021/10/08</date>
+        <contents>川崎仮面の公式Youtubeにて『【第４回】質問コーナー』を配信しました！</contents>
+        <alink>info/info_2021100801.html</alink>
+        <target></target>
+    </news>
+
+    <news>
+        <kind>info</kind>
+        <date>2021/10/01</date>
+        <contents>10月1日平塚記念場外2日目 中止順延</contents>
+        <alink>info/info_2021100101.html</alink>
+        <target></target>
+    </news>
+
+</list_database>

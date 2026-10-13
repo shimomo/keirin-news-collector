@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+
+<head>
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T3TSLTZ');</script>
+<!-- End Google Tag Manager -->
+
+
+  <meta charset="utf-8">
+  <title>お知らせ | 伊東温泉けいりん</title>
+  <meta name="description" content="伊東温泉けいりんオフィシャルホームページです。湯の街伊東の競輪場「伊東温泉けいりん」の開催日程、イベント情報、予想情報、アクセス情報など、伊東温泉けいりんにまつわる情報をお届けします！">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <link rel="stylesheet" media="all" href="../css/bootstrap-theme.css">
+  <link rel="stylesheet" media="all" href="../css/slick.css">
+  <link rel="stylesheet" media="all" href="../css/magnific-popup.css">
+  <link rel="stylesheet" media="all" href="../css/base.css">
+  <link rel="stylesheet" media="all" href="./css/local.css">
+  <!-- ▼ 再整備MAP（インタラクティブ）用 CSS ▼ -->
+  <style>
+    .rmap {
+      --rmap-east: #5170ff;
+      --rmap-east-tag: #3450d8;
+      --rmap-stand: #ffde59;
+      --rmap-stand-tag: #ffde59;
+      --rmap-bank: #f15a29;
+      --rmap-bank-tag: #c2410c;
+      --rmap-ink: #222;
+      --rmap-sub: #555;
+      --rmap-link: #1a5fb4;
+      --rmap-navy: #1d3e74;
+      --rmap-close: #dc6060;
+      --rmap-panel: #fff;
+      --rmap-ring: 3px;
+      position: relative;
+      margin: 8px 0 4px;
+      color: var(--rmap-ink);
+    }
+    .rmap *,
+    .rmap *::before,
+    .rmap *::after {
+      box-sizing: border-box;
+    }
+    .rmap__stage {
+      position: relative;
+    }
+    .rmap__base {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    /* アイコン（座標は配置図 4600×2875 から実測。上下の白帯 44px / 94px を除いた 4600×2737 に対する比率） */
+    .rmap__icon {
+      position: absolute;
+      z-index: 2;
+      display: block;
+      margin: 0;
+      padding: 0;
+      border: 0;
+      border-radius: 50%;
+      background: none;
+      cursor: pointer;
+      -webkit-appearance: none;
+      appearance: none;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .rmap__icon--east {
+      --c: var(--rmap-east);
+      left: 82.326%;
+      top: 2.375%;
+      width: 15.848%;
+    }
+    .rmap__icon--stand {
+      --c: var(--rmap-stand);
+      left: 53.696%;
+      top: 31.64%;
+      width: 15.37%;
+    }
+    .rmap__icon--bank {
+      --c: var(--rmap-bank);
+      left: 53.696%;
+      top: 64.377%;
+      width: 17%;
+    }
+    .rmap__icon img {
+      display: block;
+      width: 100%;
+      height: auto;
+      transition: transform 0.25s ease;
+    }
+    .rmap__icon--east img {
+      filter: drop-shadow(0 6px 8px rgba(0, 0, 0, 0.3));
+    }
+    .rmap__icon--stand img,
+    .rmap__icon--bank img {
+      border-radius: 50%;
+      box-shadow:
+        0 0 0 var(--rmap-ring) var(--c),
+        0 6px 14px rgba(0, 0, 0, 0.3);
+    }
+    .rmap__icon::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border: var(--rmap-ring) solid var(--c);
+      border-radius: 50%;
+      opacity: 0;
+      pointer-events: none;
+      animation: rmap-pulse 2.6s ease-out infinite;
+    }
+    .rmap__icon--stand::before {
+      animation-delay: 0.4s;
+    }
+    .rmap__icon--bank::before {
+      animation-delay: 0.8s;
+    }
+    @keyframes rmap-pulse {
+      0% {
+        opacity: 0.9;
+        transform: scale(1);
+      }
+      70%,
+      100% {
+        opacity: 0;
+        transform: scale(1.32);
+      }
+    }
+    .rmap.is-pc .rmap__icon:hover img {
+      transform: scale(1.06);
+    }
+    .rmap__icon:focus {
+      outline: none;
+    }
+    .rmap__icon:focus-visible {
+      outline: 3px solid #fff;
+      outline-offset: 4px;
+      box-shadow: 0 0 0 7px var(--rmap-navy);
+    }
+
+    /* 吹き出し（PC: MAP 中心揃い 縦横 90%） */
+    .rmap__pop {
+      --c: var(--rmap-east);
+      --tag-bg: var(--rmap-east-tag);
+      --tag-ink: #fff;
+      position: absolute;
+      left: 5%;
+      top: 5%;
+      z-index: 5;
+      width: 90%;
+      height: 90%;
+      visibility: hidden;
+      pointer-events: none;
+    }
+    .rmap__pop--stand {
+      --c: var(--rmap-stand);
+      --tag-bg: var(--rmap-stand-tag);
+      --tag-ink: #222;
+    }
+    .rmap__pop--bank {
+      --c: var(--rmap-bank);
+      --tag-bg: var(--rmap-bank-tag);
+    }
+    /*
+     * 開閉は CSS transition で行う（.is-open = 表示中、.is-shown = 展開状態）。
+     * transition は途中で何度割り込まれても最後のクラス状態へ必ず収束するため、
+     * 「パネルだけ開いて中身が透明のまま」という食い違いが起きない。
+     */
+    .rmap__pop.is-open {
+      visibility: visible;
+    }
+    .rmap__pop.is-shown {
+      pointer-events: auto;
+    }
+    .rmap__pop-panel {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      border-top: 6px solid var(--c);
+      border-radius: 18px;
+      background: var(--rmap-panel);
+      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
+      container-type: inline-size;
+      clip-path: var(--rmap-clip-from, none);
+      transition: clip-path 0.34s cubic-bezier(0.55, 0, 0.75, 0.2) 0.08s;
+    }
+    .rmap__pop.is-shown .rmap__pop-panel {
+      clip-path: var(--rmap-clip-to, none);
+      transition: clip-path 0.52s cubic-bezier(0.22, 0.9, 0.24, 1);
+    }
+    .rmap__pop-panel:focus {
+      outline: none;
+    }
+    .rmap__pop-flash {
+      position: absolute;
+      inset: 0;
+      z-index: 3;
+      background: var(--c);
+      opacity: 1;
+      pointer-events: none;
+      transition: opacity 0.2s ease 0.18s;
+    }
+    .rmap__pop.is-shown .rmap__pop-flash {
+      opacity: 0;
+      transition: opacity 0.3s ease-out 0.12s;
+    }
+    .rmap__pop-body {
+      display: grid;
+      grid-template-columns: 44% minmax(0, 1fr);
+      gap: 3.4cqw;
+      height: 100%;
+      padding: 3.6cqw 4cqw;
+    }
+    .rmap__pop-text {
+      display: flex;
+      flex-direction: column;
+      min-height: 0;
+      overflow-y: auto;
+      overscroll-behavior: contain;
+      opacity: 0;
+      transform: translateX(-18px);
+      transition:
+        opacity 0.16s ease-in,
+        transform 0.16s ease-in;
+    }
+    .rmap__pop.is-shown .rmap__pop-text {
+      opacity: 1;
+      transform: none;
+      transition:
+        opacity 0.36s ease-out 0.26s,
+        transform 0.36s ease-out 0.26s;
+    }
+    .rmap__pop-inner {
+      margin: auto 0;
+    }
+    .rmap__pop-tag {
+      display: inline-block;
+      margin: 0;
+      padding: 0.3em 0.9em;
+      border-radius: 999px;
+      background: var(--tag-bg);
+      color: var(--tag-ink);
+      font-size: clamp(12px, 1.5cqw, 14px);
+      font-weight: bold;
+      line-height: 1.4;
+    }
+    .rmap__pop-title {
+      margin: 0.55em 0 0.6em;
+      padding: 0.1em 0 0.1em 0.55em;
+      border-left: 5px solid var(--c);
+      color: var(--rmap-ink);
+      font-size: clamp(19px, 2.9cqw, 26px);
+      font-weight: bold;
+      line-height: 1.35;
+    }
+    .rmap__pop-text p {
+      margin: 0 0 0.8em;
+      font-size: clamp(14px, 1.75cqw, 16px);
+      line-height: 1.75;
+    }
+    .rmap__pop-text .rmap__pop-tag {
+      margin: 0;
+    }
+    .rmap__pop-links {
+      color: var(--rmap-sub);
+    }
+    .rmap__pop-links a {
+      color: var(--rmap-link);
+      text-decoration: underline;
+      word-break: break-all;
+    }
+    .rmap__pop-photo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 0;
+      margin: 0;
+      opacity: 0;
+      transform: translateX(18px);
+      transition:
+        opacity 0.16s ease-in,
+        transform 0.16s ease-in;
+    }
+    .rmap__pop.is-shown .rmap__pop-photo {
+      opacity: 1;
+      transform: none;
+      transition:
+        opacity 0.4s ease-out 0.2s,
+        transform 0.4s ease-out 0.2s;
+    }
+    .rmap__pop-photo img {
+      display: block;
+      width: 100%;
+      height: auto;
+      max-height: 100%;
+      object-fit: contain;
+    }
+    .rmap__pop-close {
+      display: none;
+    }
+
+    /* 操作ガイド */
+    .rmap__guide {
+      margin: 8px 0 0;
+      color: var(--rmap-sub);
+      font-size: 13px;
+      line-height: 1.6;
+    }
+    .rmap__guide-sp,
+    .rmap.is-sp .rmap__guide-pc {
+      display: none;
+    }
+    .rmap.is-sp .rmap__guide-sp {
+      display: inline;
+    }
+
+    @media (max-width: 767px) {
+      .rmap {
+        --rmap-ring: 2px;
+      }
+    }
+
+    /* 吹き出し（スマホ: 画面幅 100%・先頭揃い 縦 85% ＋ 下 15% は閉じるエリア） */
+    .rmap.is-sp .rmap__pop.is-open {
+      position: fixed;
+      left: 0;
+      top: 0;
+      z-index: 10050;
+      display: grid;
+      grid-template-rows: 85% 15%;
+      width: 100%;
+      height: 100%;
+    }
+    .rmap.is-sp .rmap__pop-panel {
+      border-radius: 0;
+      box-shadow: none;
+    }
+    .rmap.is-sp .rmap__pop-body {
+      grid-template-columns: minmax(0, 1fr);
+      grid-template-rows: auto minmax(0, 1fr);
+      gap: 14px;
+      padding: calc(14px + env(safe-area-inset-top, 0px)) 16px 12px;
+    }
+    .rmap.is-sp .rmap__pop-photo {
+      order: -1;
+      transform: translateY(-18px);
+    }
+    .rmap.is-sp .rmap__pop-text {
+      transform: translateY(18px);
+    }
+    .rmap.is-sp .rmap__pop.is-shown .rmap__pop-photo,
+    .rmap.is-sp .rmap__pop.is-shown .rmap__pop-text {
+      transform: none;
+    }
+    .rmap.is-sp .rmap__pop-photo img {
+      max-height: 34vh;
+    }
+    .rmap.is-sp .rmap__pop-inner {
+      margin: 0;
+    }
+    .rmap.is-sp .rmap__pop-close {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0 0 env(safe-area-inset-bottom, 0px);
+      border: 0;
+      background: var(--rmap-close);
+      color: #fff;
+      font-size: 19px;
+      font-weight: bold;
+      letter-spacing: 0.1em;
+      cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
+      transform: translateY(100%);
+      transition: transform 0.24s ease-in;
+    }
+    .rmap.is-sp .rmap__pop.is-shown .rmap__pop-close {
+      transform: none;
+      transition: transform 0.34s cubic-bezier(0.22, 0.9, 0.24, 1) 0.18s;
+    }
+    .rmap__pop-close:focus {
+      outline: none;
+    }
+    .rmap__pop-close:focus-visible {
+      outline: 3px solid #fff;
+      outline-offset: -8px;
+    }
+    .rmap__pop-close-x {
+      position: relative;
+      width: 40px;
+      height: 40px;
+      border: 2px solid #fff;
+      border-radius: 50%;
+    }
+    .rmap__pop-close-x::before,
+    .rmap__pop-close-x::after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      width: 20px;
+      height: 2px;
+      margin: -1px 0 0 -10px;
+      background: #fff;
+      transform: rotate(45deg);
+    }
+    .rmap__pop-close-x::after {
+      transform: rotate(-45deg);
+    }
+    html.rmap-lock,
+    html.rmap-lock body {
+      overflow: hidden;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .rmap .rmap__pop-panel,
+      .rmap .rmap__pop-flash,
+      .rmap .rmap__pop-text,
+      .rmap .rmap__pop-photo,
+      .rmap .rmap__pop-close {
+        transition-duration: 0.01s !important;
+        transition-delay: 0s !important;
+      }
+      .rmap__icon::before {
+        animation: none;
+      }
+      .rmap__icon img {
+        transition: none;
+      }
+    }
+  </style>
+  <!-- ▲ 再整備MAP（インタラクティブ）用 CSS ▲ -->
+  <link rel="apple-touch-icon" href="../img/ico_apple_touch.png">
+  <!--[if lt IE 9]>
+    <link rel="stylesheet" media="all" href="../css/old_ie.css">
+    <script src="../scripts/html5shiv.min.js"></script>
+    <script src="../scripts/rem.min.js"></script>
+    <script src="../scripts/respond.min.js"></script>
+  <![endif]-->
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HE0LGP8WFP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-HE0LGP8WFP');
+  gtag('config', 'UA-5172848-20');
+</script>
+</head>
+
+<body data-spy="scroll">
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T3TSLTZ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+  <div id="page">
+    <header>
+      <div id="page-header" class="clearfix">
+  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">MENU</button>
+  <div id="header-area">
+    <h1 id="header-logo"><a href="/"><img src="/img/logo.png" alt="伊東温泉けいりん 湯の街伊東の競輪場"></a></h1>
+    <div id="header-right">
+      <a href="/sp/rdspkeirinjp.html" target="_blank"><img src="/img/text_dento_no37.png" alt="電話投票番号37#"></a>
+    </div>
+    <!-- /header-right -->
+  </div>
+</div>
+<div id="header-hidden"></div>
+
+      <div id="page-navigation" class="navbar global-menu over-visual closed">
+  <div class="container">
+    <div class="collapse navbar-collapse">
+     <nav>
+        <ul class="nav navbar-nav">
+          <li class="nav-home"><a href="/">HOME</a></li>
+          <li class="nav-nittei dropdown">
+            <a href="/nittei/" class="dropdown-toggle" data-toggle="dropdown">開催情報<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="/nittei/">開催日程</a></li>
+              <li><a href="/column/column.html">現場記者コラム</a></li>
+              <li><a href="/analyzer/">オリジナル分析</a></li>
+            </ul>
+          </li>
+          <li class="nav-access"><a href="/access/">交通アクセス</a></li>
+          <li class="nav-guide dropdown">
+            <a href="/guide/" class="dropdown-toggle" data-toggle="dropdown">競輪場案内<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="/guide/">競輪場案内</a></li>
+              <li><a href="/guide/ayumi.html">沿革と記録</a></li>
+            </ul>
+          </li>
+          <li class="nav-news"><a href="/news/">お知らせ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    </header>
+    <article>
+      <h2 class="title1">お知らせ<span>Information</span></h2>
+      <div class="content">
+        <div class="container">
+          <!-- ▼ 記事タイトル  ▼ -->
+          <h3 class="title2">
+             伊東温泉競輪場　再整備スケジュールについて
+          </h3>
+
+          <!-- ▼ 記事詳細  ▼ -->
+<br>
+＜再整備スケジュール＞<br />
+<img src="img/news26100501_01.png?261005" width="100%" alt="再整備スケジュール"><br />
+<br />
+<br />
+＜再整備MAP＞　※青塗り箇所は工事・解体エリア<br />
+<!-- ▼ 再整備MAP（インタラクティブ） ▼ -->
+<div class="rmap" id="rmap">
+  <div class="rmap__stage">
+    <img class="rmap__base" src="img/news26100501_map_base.jpg?261005" width="1980" height="1178" alt="伊東温泉けいりん場内再整備MAP">
+
+    <button type="button" class="rmap__icon rmap__icon--east" aria-controls="rmap-pop-east" aria-expanded="false" aria-label="新東口入場門の詳細を表示">
+      <picture>
+        <source srcset="img/news26100501_map_icon_east.webp?261005" type="image/webp">
+        <img src="img/news26100501_map_icon_east.png?261005" width="320" height="320" alt="">
+      </picture>
+    </button>
+    <button type="button" class="rmap__icon rmap__icon--stand" aria-controls="rmap-pop-stand" aria-expanded="false" aria-label="メインスタンドの詳細を表示">
+      <picture>
+        <source srcset="img/news26100501_map_icon_stand.webp?261005" type="image/webp">
+        <img src="img/news26100501_map_icon_stand.png?261005" width="320" height="320" alt="">
+      </picture>
+    </button>
+    <button type="button" class="rmap__icon rmap__icon--bank" aria-controls="rmap-pop-bank" aria-expanded="false" aria-label="バンクの詳細を表示">
+      <picture>
+        <source srcset="img/news26100501_map_icon_bank.webp?261005" type="image/webp">
+        <img src="img/news26100501_map_icon_bank.png?261005" width="320" height="320" alt="">
+      </picture>
+    </button>
+
+    <div class="rmap__pop rmap__pop--east" id="rmap-pop-east" role="dialog" aria-labelledby="rmap-ttl-east" aria-hidden="true">
+      <div class="rmap__pop-panel" tabindex="-1">
+        <div class="rmap__pop-body">
+          <div class="rmap__pop-text">
+            <div class="rmap__pop-inner">
+              <p class="rmap__pop-tag">2027年2月 営業開始</p>
+              <h4 class="rmap__pop-title" id="rmap-ttl-east">新東口入場門</h4>
+              <p>入場口を兼ね備えた新しい投票所が2027年2月に営業開始となります。<br>食事処も備え、憩いの場所としても機能します。</p>
+              <p class="rmap__pop-links">建設タイムラプス動画（公式X）<br><a href="https://x.com/itoonsen_keirin/status/2059922638093607036" target="_blank" rel="noopener">https://x.com/itoonsen_keirin/status/2059922638093607036</a></p>
+            </div>
+          </div>
+          <figure class="rmap__pop-photo">
+            <img src="img/news26100501_map_photo_east.jpg?261005" width="854" height="475" alt="新東口入場門のパース" loading="lazy">
+          </figure>
+        </div>
+        <span class="rmap__pop-flash" aria-hidden="true"></span>
+      </div>
+      <button type="button" class="rmap__pop-close" aria-label="詳細を閉じる"><span class="rmap__pop-close-x" aria-hidden="true"></span>閉じる</button>
+    </div>
+
+    <div class="rmap__pop rmap__pop--stand" id="rmap-pop-stand" role="dialog" aria-labelledby="rmap-ttl-stand" aria-hidden="true">
+      <div class="rmap__pop-panel" tabindex="-1">
+        <div class="rmap__pop-body">
+          <div class="rmap__pop-text">
+            <div class="rmap__pop-inner">
+              <p class="rmap__pop-tag">2028年12月 オープン予定</p>
+              <h4 class="rmap__pop-title" id="rmap-ttl-stand">メインスタンド</h4>
+              <p>2028年12月にオープン予定です。続報は随時公式HPやSNSからご確認ください。</p>
+              <p class="rmap__pop-links">西口第2スタンドの解体動画はこちらから。<br>(1)<a href="https://twitter.com/itoonsen_keirin/status/2027670119456117030" target="_blank" rel="noopener">https://twitter.com/itoonsen_keirin/status/2027670119456117030</a><br>(2)<a href="https://twitter.com/itoonsen_keirin/status/2048960395034214692" target="_blank" rel="noopener">https://twitter.com/itoonsen_keirin/status/2048960395034214692</a></p>
+            </div>
+          </div>
+          <figure class="rmap__pop-photo">
+            <img src="img/news26100501_map_photo_stand.jpg?261007" width="804" height="471" alt="メインスタンドのパース" loading="lazy">
+          </figure>
+        </div>
+        <span class="rmap__pop-flash" aria-hidden="true"></span>
+      </div>
+      <button type="button" class="rmap__pop-close" aria-label="詳細を閉じる"><span class="rmap__pop-close-x" aria-hidden="true"></span>閉じる</button>
+    </div>
+
+    <div class="rmap__pop rmap__pop--bank" id="rmap-pop-bank" role="dialog" aria-labelledby="rmap-ttl-bank" aria-hidden="true">
+      <div class="rmap__pop-panel" tabindex="-1">
+        <div class="rmap__pop-body">
+          <div class="rmap__pop-text">
+            <div class="rmap__pop-inner">
+              <p class="rmap__pop-tag">2028年10月 本場開催再開予定</p>
+              <h4 class="rmap__pop-title" id="rmap-ttl-bank">バンク</h4>
+              <p>2026年10月より伊東温泉競輪場での本場開催は休止となり、バンクの改修がはじまります。<br>2028年10月に本場開催を再開予定です。</p>
+            </div>
+          </div>
+          <figure class="rmap__pop-photo">
+            <img src="img/news26100501_map_photo_bank.jpg?261007" width="768" height="480" alt="改修後のバンクのパース" loading="lazy">
+          </figure>
+        </div>
+        <span class="rmap__pop-flash" aria-hidden="true"></span>
+      </div>
+      <button type="button" class="rmap__pop-close" aria-label="詳細を閉じる"><span class="rmap__pop-close-x" aria-hidden="true"></span>閉じる</button>
+    </div>
+  </div>
+  <p class="rmap__guide">
+    <span class="rmap__guide-pc">▶ 各施設アイコンにカーソルを合わせると、各施設のリニューアル情報が表示されます。</span><span class="rmap__guide-sp">▶ 各施設アイコンをタップすると、各施設のリニューアル情報が表示されます。</span>
+  </p>
+</div>
+<!-- ▲ 再整備MAP（インタラクティブ） ▲ -->
+※各パース画像は計画段階のものとなり、協議のうえ変更となる可能性があります。<br />
+<br />
+新たに生まれ変わる伊東温泉けいりんをお楽しみに！<br />
+<br />
+          <!-- ▲ 記事詳細 ▲ -->
+        </div>
+        <!-- /.container -->
+      </div>
+      <!-- /.content -->
+    </article>
+    <footer>
+ <div id="page-footerinfo">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-0 col-md-4 col-md-offset-0">
+          <a href="/"><img src="/img/logo.png" alt="伊東温泉けいりん" class="img-responsive"></a>
+        </div>
+        <div class="col-xs-12 col-sm-6  col-md-8">
+          <p>〒414-0055 静岡県伊東市岡1280<br>
+            <span class=""><a href="/access/">アクセス</a>｜<a href="/privacypolicy.html">プライバシーポリシー</a></span></p>
+          <ul class="list-inline">
+            <!--<li><a href="#"><img src="/img/btn_line.png" alt="LINE＠"></a></li>-->
+            <li><a href="https://www.facebook.com/itokeirin/" target="_blank"><img src="/img/btn_facebook.png" alt="Facebook"></a></li>
+            <!--<li><a href="http://ustre.am/FzSO" target="_blank"><img src="/img/btn_ustream.png" alt="USTREAM"></a></li>-->
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="page-footer" class="footer">
+    <div class="container">
+      <a href="#page" class="gotop">▲PAGE TOP</a>
+      <p class="copyright">© ITO ONSEN KEIRIN All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<!----------------//YDNリターゲティングタグ----------------->
+<script async src="https://s.yimg.jp/images/listing/tool/cv/ytag.js"></script>
+<script>
+window.yjDataLayer = window.yjDataLayer || [];
+function ytag() { yjDataLayer.push(arguments); }
+ytag({
+  "type":"yjad_retargeting",
+  "config":{
+    "yahoo_retargeting_id": "Y291BOHXGD",
+    "yahoo_retargeting_label": "",
+    "yahoo_retargeting_page_type": "",
+    "yahoo_retargeting_items":[
+      {item_id: '', category_id: '', price: '', quantity: ''}
+    ]
+  }
+});
+</script>
+<!----------------YDNリターゲティングタグ//----------------->
+
+  </div>
+  <script src="../scripts/jquery-3.7.1.min.js"></script>
+  <script src="../scripts/jquery.magnific-popup.min.js"></script>
+  <script src="../scripts/slick.min.js"></script>
+  <script src="../scripts/bootstrap.min.js"></script>
+  <script src="../scripts/common.js"></script>
+  <script src="./scripts/page-news.js"></script>
+  <!-- ▼ 再整備MAP（インタラクティブ）用 JS ▼ -->
+  <script>
+    (function () {
+      "use strict";
+
+      const root = document.getElementById("rmap");
+      if (!root) return;
+
+      const stage = root.querySelector(".rmap__stage");
+      const icons = Array.prototype.slice.call(root.querySelectorAll(".rmap__icon"));
+      const mqPC = window.matchMedia("(min-width: 768px) and (hover: hover) and (pointer: fine)");
+      const canClip = !!window.CSS && CSS.supports("clip-path", "circle(1px at 0px 0px)");
+      const HOVER_DELAY = 90; // 素通りで開かないための猶予 (ms)
+      const CLOSE_FALLBACK = 600; // 閉じる transition の終了通知が来ない場合の保険 (ms)
+
+      let current = null; // { icon, pop, panel, sp, state, timer, closedAt }
+      let hoverTimer = 0;
+
+      const isSP = () => !mqPC.matches;
+
+      // ---------- 開閉 ----------
+      // 見た目の状態は CSS（.is-open / .is-shown と transition）が持ち、JS はクラスを切り替えるだけ。
+      // アイコン中心から広がる clip-path の始点・終点だけを CSS 変数で渡す。
+      function setClip(c) {
+        if (!canClip) return;
+        const ir = c.icon.getBoundingClientRect();
+        const pr = c.panel.getBoundingClientRect();
+        const cx = ir.left + ir.width / 2 - pr.left;
+        const cy = ir.top + ir.height / 2 - pr.top;
+        const r0 = (ir.width / 2) * 0.96;
+        const m = 40; // パネルの影まで含めて覆う
+        const r1 = Math.max(
+          Math.hypot(cx + m, cy + m),
+          Math.hypot(pr.width - cx + m, cy + m),
+          Math.hypot(cx + m, pr.height - cy + m),
+          Math.hypot(pr.width - cx + m, pr.height - cy + m)
+        );
+        const at = " at " + cx.toFixed(1) + "px " + cy.toFixed(1) + "px)";
+        c.panel.style.setProperty("--rmap-clip-from", "circle(" + r0.toFixed(1) + "px" + at);
+        c.panel.style.setProperty("--rmap-clip-to", "circle(" + r1.toFixed(1) + "px" + at);
+      }
+
+      function setExpanded(c, on) {
+        c.icon.setAttribute("aria-expanded", on ? "true" : "false");
+        c.pop.setAttribute("aria-hidden", on ? "false" : "true");
+      }
+
+      function show(c) {
+        clearTimeout(c.timer);
+        c.state = "open";
+        c.pop.classList.add("is-shown");
+        setExpanded(c, true);
+      }
+
+      function open(icon, viaKeyboard) {
+        const pop = document.getElementById(icon.getAttribute("aria-controls"));
+        if (!pop) return;
+
+        if (current && current.pop === pop) {
+          // 閉じている途中なら、その位置から展開へ戻す
+          if (current.state === "closing") show(current);
+          return;
+        }
+        if (current) finalizeClose(current);
+
+        const c = {
+          icon: icon,
+          pop: pop,
+          panel: pop.querySelector(".rmap__pop-panel"),
+          sp: isSP(),
+          state: "",
+          timer: 0,
+          closedAt: 0,
+        };
+        current = c;
+
+        pop.classList.add("is-open"); // スマホはここで画面固定の配置になる
+        if (c.sp) {
+          document.documentElement.classList.add("rmap-lock");
+          pop.setAttribute("aria-modal", "true");
+        } else {
+          pop.removeAttribute("aria-modal");
+        }
+        setClip(c);
+        void c.panel.offsetWidth; // 閉じた状態のスタイルを確定させてから展開する
+        show(c);
+        if (c.sp || viaKeyboard) c.panel.focus({ preventScroll: true });
+      }
+
+      function close() {
+        clearTimeout(hoverTimer);
+        const c = current;
+        if (!c || c.state === "closing") return;
+        c.state = "closing";
+        c.closedAt = performance.now();
+        c.pop.classList.remove("is-shown");
+        setExpanded(c, false);
+        clearTimeout(c.timer);
+        c.timer = setTimeout(() => {
+          if (c.state === "closing") finalizeClose(c);
+        }, CLOSE_FALLBACK);
+      }
+
+      function finalizeClose(c) {
+        clearTimeout(c.timer);
+        const hadFocus = c.pop.contains(document.activeElement);
+        c.state = "";
+        c.pop.classList.remove("is-open", "is-shown");
+        c.pop.removeAttribute("aria-modal");
+        c.panel.style.removeProperty("--rmap-clip-from");
+        c.panel.style.removeProperty("--rmap-clip-to");
+        setExpanded(c, false);
+        if (c.sp) document.documentElement.classList.remove("rmap-lock");
+        if (current === c) current = null;
+        if (hadFocus) c.icon.focus({ preventScroll: true });
+      }
+
+      // 円が縮み切ったら非表示にする（直前の展開分の終了通知は closedAt で除外）
+      root.querySelectorAll(".rmap__pop-panel").forEach((panel) => {
+        panel.addEventListener("transitionend", (e) => {
+          if (e.target !== panel || e.propertyName !== "clip-path") return;
+          const c = current;
+          if (!c || c.panel !== panel || c.state !== "closing") return;
+          if (performance.now() - c.closedAt < 150) return;
+          finalizeClose(c);
+        });
+      });
+
+      // ---------- 操作 ----------
+      icons.forEach((icon) => {
+        icon.addEventListener("mouseenter", () => {
+          if (isSP()) return;
+          clearTimeout(hoverTimer);
+          hoverTimer = setTimeout(() => open(icon, false), HOVER_DELAY);
+        });
+        icon.addEventListener("mouseleave", () => clearTimeout(hoverTimer));
+        icon.addEventListener("click", (e) => {
+          clearTimeout(hoverTimer);
+          open(icon, e.detail === 0);
+        });
+      });
+
+      // PC: MAP 画像エリアからカーソルが外れたらアイコンに戻す
+      stage.addEventListener("mouseleave", () => {
+        clearTimeout(hoverTimer);
+        if (current && !current.sp) close();
+      });
+      // PC: キーボード操作で MAP 外へフォーカスが移ったら戻す
+      stage.addEventListener("focusout", (e) => {
+        if (!current || current.sp) return;
+        if (!e.relatedTarget || !stage.contains(e.relatedTarget)) close();
+      });
+      // PC: MAP 外をクリック・タップしたら戻す（タッチ対応 PC 向け）
+      document.addEventListener("pointerdown", (e) => {
+        if (current && !current.sp && !stage.contains(e.target)) close();
+      });
+      // スマホ: 下部 15% の × エリアで戻す
+      root.querySelectorAll(".rmap__pop-close").forEach((btn) => {
+        btn.addEventListener("click", close);
+      });
+      document.addEventListener("keydown", (e) => {
+        if (!current) return;
+        if (e.key === "Escape" || e.key === "Esc") {
+          close();
+          return;
+        }
+        // スマホ表示中はダイアログ内でフォーカスを循環させる
+        if (e.key === "Tab" && current.sp) {
+          const f = Array.prototype.slice.call(
+            current.pop.querySelectorAll("a[href], button, [tabindex='-1']")
+          );
+          const first = f[0];
+          const last = f[f.length - 1];
+          if (e.shiftKey && document.activeElement === first) {
+            e.preventDefault();
+            last.focus();
+          } else if (!e.shiftKey && document.activeElement === last) {
+            e.preventDefault();
+            first.focus();
+          }
+        }
+      });
+
+      // ---------- 表示モード ----------
+      function applyMode() {
+        const sp = isSP();
+        root.classList.toggle("is-sp", sp);
+        root.classList.toggle("is-pc", !sp);
+        if (current) finalizeClose(current);
+      }
+
+      if (mqPC.addEventListener) {
+        mqPC.addEventListener("change", applyMode);
+      } else if (mqPC.addListener) {
+        mqPC.addListener(applyMode);
+      }
+
+      applyMode();
+    })();
+  </script>
+  <!-- ▲ 再整備MAP（インタラクティブ）用 JS ▲ -->
+</body>
+
+</html>

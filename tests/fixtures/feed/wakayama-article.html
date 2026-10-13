@@ -1,0 +1,395 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Cache-Control" content="no-cache">
+	<meta name="keywords" content="わかやまけいりん,わかやまケイリン,和歌山,競輪,レース,開催,選手,イベント,わかちゃん,キャラクター" />
+	<meta name="description" content="和歌山競輪は、マスコットキャラクター「わかちゃん」がお出迎えする和歌山市にある競輪場です。イベントも盛りだくさんですので、是非ご家族でお越し下さい！" />
+	<title>和歌山競輪</title>
+	<meta name="robots" content="noindex,nofollow" />
+	<!--▼favicon-->
+	<link rel="shortcut icon" href="../favicon.ico" type="image/vnd.microsoft.icon" />
+
+	<!--▼基本CSS-->
+	<link href="../css/import.css?2305181520" rel="stylesheet" type="text/css" media="all" />
+	<style type="text/css">
+		.font00 {
+			font-size: 14px;
+			text-align: left;
+			padding-bottom: 10px;
+			padding-top: 30px;
+		}
+
+		.font01 {
+			font-size: 11px;
+			text-align: center;
+		}
+
+		.font02 {
+			font-size: 16px;
+			text-align: center;
+			border: 2px solid #333;
+			padding: 5px;
+			margin-top: 50px;
+			margin-right: auto;
+			margin-bottom: 20px;
+			margin-left: auto;
+			width: 150px;
+		}
+
+		.time {
+			text-align: right;
+			font-size: 12px;
+			padding-top: 10px;
+		}
+
+		body {
+			line-height: 1.4;
+		}
+
+		.title01 {
+			font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+			font-weight: bold;
+			font-size: 16.5px;
+			border: 1px solid #333;
+			padding: 30px 0;
+			text-align: center;
+		}
+
+		.title01 span {
+			color: #f00;
+		}
+
+		.title01 a:hover {
+			background: #419bef;
+			transition: all 0.2s ease;
+			color: #fff;
+		}
+
+		.box_inner {
+			font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+			line-height: 1.5;
+		}
+
+		.day {
+			font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+			font-size: 15px;
+			border-left-width: 5px;
+			border-left-style: solid;
+			border-left-color: #f00;
+			margin-bottom: 5px;
+			font-weight: bold;
+		}
+
+		.event {
+			font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+			font-size: 14px;
+			padding-bottom: 10px;
+		}
+
+		.event2 {
+			font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+			font-size: 14px;
+			padding-bottom: 25px;
+		}
+
+		.attention {
+			font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+			font-size: 12px;
+			background: #ededed;
+			padding: 30px;
+			margin: 30px auto;
+		}
+
+		.subttl {
+			color: #f00;
+			font-size: 20px;
+			font-weight: bold;
+			text-align: center !important;
+		}
+
+		.strong {
+			font-size: 14px;
+			font-weight: bold;
+		}
+
+		.LinkBtn {
+			background: #0cacf0;
+			color: #fff !important;
+			display: block;
+			width: 50%;
+			padding: 10px 0;
+			text-align: center;
+			position: relative;
+		}
+
+		.LinkBtn:before {
+			content: '▶';
+			position: absolute;
+			top: 30%;
+			right: 10px;
+		}
+	</style>
+
+	<!--▼基本js-->
+	<script type="text/javascript" src="../js/base.js"></script>
+	<script type="text/javascript" src="../js/jquery.js"></script>
+
+	<!--▼ページの先頭へ -->
+	<script>
+		$(function () {
+			//ページ上部へ戻る
+			$('.btn_top').click(function () {
+				$('html,body').animate({ scrollTop: 0 }, 'fast');
+				return false;
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<div id="wrap">
+		<div id="header">
+			<div id="headerIn">
+				<h1 id="headText" name="headText">和歌山競輪は、マスコットキャラクター「わかちゃん」がお出迎えする和歌山市にある競輪場です。</h1>
+
+				<div id="headCname">
+					<a href="../../"><img src="../images/common/logo.jpg" alt="和歌山競輪" width="235" height="72" /></a>
+				</div>
+
+				<div id="headBlogLink">
+					<a href="../blog" target="_blank"><img src="../images/common/btn_blog_head.jpg" alt="わかちゃんBLOG" width="135"
+							height="35" /></a>
+				</div>
+
+				<div id="headSubNavi">
+					<ul>
+						<li><a href="../sitemap.html">サイトマップ</a></li>
+						<li><a href="../privacy.html">個人情報保護について</a></li>
+						<li><a href="../link/index.html">リンク</a></li>
+						<li><a href="../contact/index.html">お問い合わせ</a></li>
+					</ul>
+				</div>
+
+				<!--/headerIn-->
+			</div>
+
+			<div class="clearfix"></div>
+			<!--/header-->
+		</div>
+
+		<div id="gnaviArea">
+			<ul id="globalnavi">
+				<li class="item01">
+					<a href="../../"><span>HOME</span></a>
+				</li>
+				<li class="item02">
+					<a href="../schd"><span>開催スケジュール</span></a>
+				</li>
+				<li class="item03">
+					<a href="http://st.keirin.jp/portal/pc/index.html?jyocd=55" target="_blank"><span>ライブ中継＆ダイジェスト</span></a>
+				</li>
+				<li class="item04">
+					<a href="../race/tipster.html"><span>レース情報</span></a>
+					<ul>
+						<li><a href="../race/tipster.html">レース予想</a></li>
+						<li><a href="../race/index.html">次回レース展望</a></li>
+						<li><a href="../interview">優勝者インタビュー</a></li>
+					</ul>
+				</li>
+				<li class="item05">
+					<a href="../player"><span>地元選手紹介</span></a>
+				</li>
+				<li class="item06">
+					<a href="../present"><span>プレゼント</span></a>
+				</li>
+				<li class="item07">
+					<a href="../information"><span>施設案内</span></a>
+					<ul>
+						<li><a href="../information/index.html">競輪場＆場内案内</a></li>
+						<li><a href="../information/access.html">アクセス</a></li>
+						<li><a href="../report/obank.html">３連単＆高額配当</a></li>
+					</ul>
+				</li>
+				<li class="item08">
+					<a href="https://www.wakayama-kanko.or.jp/" target="_blank"><span>わかやま観光情報</span></a>
+					<ul>
+						<li><a href="https://www.wakayama-kanko.or.jp/" target="_blank">「わかやま観光情報」のサイトへリンクします</a></li>
+					</ul>
+				</li>
+			</ul>
+			<!--/gnaviArea-->
+		</div>
+
+		<!--▼▼▼パンくず-->
+		<div id="topicPass">
+			<ul>
+				<li class="first"><a href="../../">HOME</a></li>
+				<li>令和８年度和歌山県営競輪開設７７周年記念競輪「和歌山グランプリ」におけるポスター及びクオカード作成業務委託に係る企画コンペティションの実施について</li>
+			</ul>
+			<div class="clearfix"></div>
+			<!--/ topicpass -->
+		</div>
+
+		<!--▼▼▼イメージギャラリー-->
+		<div id="pageImgArea">
+			<div id="pageImgAreaIn">
+				<p>&nbsp;</p>
+			</div>
+		</div>
+
+		<div id="wrapIn">
+			<div id="contents">
+				<div id="contentsIn">
+					<div id="mainArea" class="privacy">
+						<div class="box_basic">
+							<div class="box_inner"
+								style="font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif; line-height: 1.5">
+								<!--▽▽▽　本文　▽▽▽-->
+
+								<div class="title01" style="font-size: 16.5px">
+									令和８年度和歌山県営競輪開設７７周年記念競輪「和歌山グランプリ」<br />におけるポスター及びクオカード作成業務委託に係る<br />企画コンペティションの実施について</div>
+
+								<div class="time">令和8年10月</div>
+
+								<div class="font00">
+									【概要】<br />
+									　令和８年１０月５日に実施した令和８年度和歌山県営競輪開設７７周年記念競輪和歌山グランプリにおけるポスター及びクオカード作成業務委託に係る公募型企画コンペティション審査会の審査結果は次のとおりとなりました。
+									<br />
+									<br />
+									【審査結果】<br />
+									<table style="border-collapse: collapse; border: 1px solid black">
+										<tr style="vertical-align: text-top">
+											<td style="border: 1px solid black; padding: 3px">順位</td>
+											<td style="border: 1px solid black; padding: 3px">提案者</td>
+											<td style="border: 1px solid black; padding: 3px">評価点</td>
+										</tr>
+										<tr style="vertical-align: text-top">
+											<td style="border: 1px solid black; padding: 3px">１（契約候補者）</td>
+											<td style="border: 1px solid black; padding: 3px">Ａ　株式会社アストラカン</td>
+											<td style="border: 1px solid black; padding: 3px">１６１</td>
+										</tr>
+										<tr style="vertical-align: text-top">
+											<td style="border: 1px solid black; padding: 3px">２</td>
+											<td style="border: 1px solid black; padding: 3px">Ｂ</td>
+											<td style="border: 1px solid black; padding: 3px">１５０</td>
+										</tr>
+										<tr style="vertical-align: text-top">
+											<td style="border: 1px solid black; padding: 3px">３</td>
+											<td style="border: 1px solid black; padding: 3px">Ｃ</td>
+											<td style="border: 1px solid black; padding: 3px">１４７</td>
+										</tr>
+										<tr style="vertical-align: text-top">
+											<td style="border: 1px solid black; padding: 3px">４</td>
+											<td style="border: 1px solid black; padding: 3px">Ｄ</td>
+											<td style="border: 1px solid black; padding: 3px">１４０</td>
+										</tr>
+										<tr style="vertical-align: text-top">
+											<td style="border: 1px solid black; padding: 3px">４</td>
+											<td style="border: 1px solid black; padding: 3px">Ｅ</td>
+											<td style="border: 1px solid black; padding: 3px">１４０</td>
+										</tr>
+										<tr style="vertical-align: text-top">
+											<td style="border: 1px solid black; padding: 3px">６</td>
+											<td style="border: 1px solid black; padding: 3px">Ｆ</td>
+											<td style="border: 1px solid black; padding: 3px">１３３</td>
+										</tr>
+										<tr style="vertical-align: text-top">
+											<td style="border: 1px solid black; padding: 3px">７</td>
+											<td style="border: 1px solid black; padding: 3px">Ｇ</td>
+											<td style="border: 1px solid black; padding: 3px">１２８</td>
+										</tr>
+										<tr style="vertical-align: text-top">
+											<td style="border: 1px solid black; padding: 3px">８</td>
+											<td style="border: 1px solid black; padding: 3px">Ｈ</td>
+											<td style="border: 1px solid black; padding: 3px">１１９</td>
+										</tr>
+
+									</table>
+								</div>
+								<!--△△△　本文　△△△-->
+							</div>
+
+							<!--/box_basic-->
+						</div>
+
+						<!--/mainArea-->
+					</div>
+
+					<div id="sideArea">
+						<div id="sideAreaIn">
+							<iframe src="../element/sideparts.html" id="sideParts" frameborder="0" scrolling="no">
+								現在ご使用のブラウザではインラインフレームを表示することができません。<br />
+								インラインフレーム対応ブラウザにてご覧下さい。
+							</iframe>
+
+							<!--/sideAreain-->
+						</div>
+
+						<!--/sideArea-->
+					</div>
+
+					<div class="clearfix"></div>
+
+					<p class="btn_top"><img src="../images/common/btn_pagetop.jpg" alt="ページの先頭へ" /></p>
+
+					<!--/contentsIn-->
+				</div>
+				<!--/contents-->
+			</div>
+			<div class="clearfix"></div>
+			<!-- /wrapIn -->
+		</div>
+
+		<div id="footer">
+			<div id="footerIn">
+				<div id="footNavi">
+					<ul>
+						<li class="first"><a href="../../keirinwa.com">HOME</a></li>
+						<li><a href="../schd">開催スケジュール</a></li>
+						<li><a href="http://st.keirin.jp/portal/pc/index.html?jyocd=55" target="_blank">ライブ中継＆ダイジェスト</a></li>
+						<li><a href="../race/tipster.html">レース情報</a></li>
+						<li><a href="../player/index.html">地元選手紹介</a></li>
+						<li><a href="../present/index.html">プレゼント</a></li>
+						<li><a href="../information/index.html">施設案内</a></li>
+					</ul>
+					<div class="clearfix"></div>
+				</div>
+
+				<div id="footBtm">
+					<ul>
+						<li><a href="../sitemap.html">サイトマップ</a></li>
+						<li><a href="../privacy.html">個人情報保護方針</a></li>
+						<li><a href="../link/index.html">リンク</a></li>
+						<li class="last"><a href="../contact/index.html">お問い合わせ</a></li>
+					</ul>
+					<p class="copyright">Copyright (C) WAKAYAMA KEIRIN All rights reserved.</p>
+				</div>
+
+				<!-- /footerIn-->
+			</div>
+
+			<!-- /footer-->
+		</div>
+
+		<!-- /wrap -->
+	</div>
+
+	<script type="text/javascript">
+		var gaJsHost = 'https:' == document.location.protocol ? 'https://ssl.' : 'http://www.';
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+		try {
+			var pageTracker = _gat._getTracker('UA-9014912-1');
+			pageTracker._trackPageview();
+		} catch (err) { }
+	</script>
+</body>
+
+</html>
